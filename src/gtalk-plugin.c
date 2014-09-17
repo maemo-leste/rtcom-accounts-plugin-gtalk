@@ -142,7 +142,7 @@ static void gtalk_plugin_on_autostun_toggled_cb(gpointer data)
   glade_xml_get_widget(xml, "stun-port-lbl");
   glade_xml_get_widget(xml, "stun-server-lbl");
 
-  if (rtcom_param_int_get_value() == 0x80000000)
+  if (rtcom_param_int_get_value(RTCOM_PARAM_INT(stun_port)) == G_MININT32)
     rtcom_param_int_set_value(RTCOM_PARAM_INT(stun_port), 3478);
 
   if (active)
