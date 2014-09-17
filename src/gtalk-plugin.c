@@ -1,10 +1,14 @@
+#include <stdlib.h>
 #include <gtk/gtk.h>
+#include <hildon/hildon.h>
 #include <glade/glade.h>
 #include <libaccounts/account-plugin.h>
 #include <librtcom-accounts-widgets/rtcom-account-plugin.h>
 #include <librtcom-accounts-widgets/rtcom-dialog-context.h>
 #include <librtcom-accounts-widgets/rtcom-login.h>
 #include <librtcom-accounts-widgets/rtcom-edit.h>
+#include <librtcom-accounts-widgets/rtcom-param-int.h>
+#include <hildon-uri.h>
 #include <config.h>
 
 #define GTALK_FORGOT_PASSWORD_URI "https://www.google.com/accounts/ForgotPasswd?service=mail&fpOnly=1"
@@ -139,7 +143,7 @@ static void gtalk_plugin_on_autostun_toggled_cb(gpointer data)
   glade_xml_get_widget(xml, "stun-server-lbl");
 
   if (rtcom_param_int_get_value() == 0x80000000)
-    rtcom_param_int_set_value(stun_port, 3478);
+    rtcom_param_int_set_value(RTCOM_PARAM_INT(stun_port), 3478);
 
   if (active)
     gtk_widget_hide(stun_table);
@@ -213,7 +217,7 @@ static GtkWidget *create_advanced_settings_page(RtcomDialogContext *context)
     text = gtk_entry_get_text(
           GTK_ENTRY(glade_xml_get_widget(xml, "stun-server")));
     if (!text || !*text)
-      hildon_check_button_set_active(autostun_button, TRUE);
+      hildon_check_button_set_active(HILDON_CHECK_BUTTON(autostun_button), TRUE);
 
     gtalk_plugin_on_autostun_toggled_cb(autostun_button);
     hash = g_hash_table_new((GHashFunc)g_direct_hash,
@@ -280,7 +284,7 @@ static void gtalk_plugin_context_init(RtcomAccountPlugin *plugin,
   AccountItem *account;
   GtkWidget *page;
 
-  const static gchar *invalid_chars_re = "[:'\"<>&;#\\s]";
+  static const gchar *invalid_chars_re = "[:'\"<>&;#\\s]";
 
   editing = account_edit_context_get_editing(ACCOUNT_EDIT_CONTEXT(context));
   account = account_edit_context_get_account(ACCOUNT_EDIT_CONTEXT(context));
