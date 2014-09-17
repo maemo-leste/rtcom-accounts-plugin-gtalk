@@ -1,3 +1,9 @@
+rtcom-accounts-plugin-gtalk (4.140-2) fremantle; urgency=low
+
+  * Initial import
+
+ -- Pali Rohár <pali.rohar@gmail.com>  Wed, 17 Sep 2014 09:31:10 +0200
+
 rtcom-accounts-ui (4.140-1+0m5) fremantle; urgency=low
 
   * This entry has been added by BIFH queue processor
