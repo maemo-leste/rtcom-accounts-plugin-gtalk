@@ -1,0 +1,1843 @@
+rtcom-accounts-ui (4.140-1+0m5) fremantle; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    version has been changed to 4.140-1+0m5
+
+ -- Mahawadhi Ratna <ext-ratna.2.mahawadhi@nokia.com>  Thu, 15 Jul 2010 15:22:02 +0300
+
+rtcom-accounts-ui (4.140-1) fremantle; urgency=low
+
+  * Fixes: NB#179683 - Window to enter credentials for facebook is truncated
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Wed, 14 Jul 2010 14:30:14 +0300
+
+rtcom-accounts-ui (4.139-1) fremantle; urgency=low
+
+  * Fixes: NB#161522 - URL used to Define Facebook username is incorrect
+  * Fixes: NB#160968 - Incorrect banner shown when a email is entered in place of username while configuring Facebook account
+  * Fixes: NB#159411 - Configure SIP profile dialogue: "Use for telephone numbers" not enabled by default
+  * Fixes: NB#157605 - New facebook accounts-ui plugin needs to be created.
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Mon,  17 May 2010 10:52:35 +0200
+
+rtcom-accounts-ui (4.131-1) fremantle; urgency=low
+
+  * Fixes: NB#159252 -  rtcom-accounts-plugin-facebook conflicting with account-plugin-haze
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Thu,  4 Mar 2010 15:58:35 +0200
+
+rtcom-accounts-ui (4.130-1) fremantle; urgency=low
+
+  * Fixes: NB#158411 - rtcom-accounts-voip-support postinst script breaks SSU
+  * Fixes: NB#158295 - accounts ui crashes while logging into facebook in some cases
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Fri, 26 Feb 2010 14:33:18 +0200
+
+rtcom-accounts-ui (4.129-1) fremantle; urgency=low
+
+  * Fixes: NB#158295 -  accounts ui crashes while logging into facebook in some cases
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Thu, 25 Feb 2010 13:36:18 +0200
+
+rtcom-accounts-ui (4.128-1) fremantle; urgency=low
+
+  * Fixes: NB#157692 - Register new google account page is not opening.
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Wed, 24 Feb 2010 13:34:28 +0200
+
+rtcom-accounts-ui (4.127-1) fremantle; urgency=low
+
+  * Facebook has a prefilled username: @chat.facebook.com
+  * The Register button opens the browser at www.facebook.com
+  * The username label is "User name" and not "Address"
+  * The msg-empty is "Enter username and password first" and not "Enter address and password first"
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Tue, 23 Feb 2010 16:18:59 +0200
+
+rtcom-accounts-ui (4.126-1) fremantle; urgency=low
+
+  * Fixes: NB#157692 - Register new google account page is not opening.
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Mon, 22 Feb 2010 14:30:13 +0200
+
+rtcom-accounts-ui (4.125-1) fremantle; urgency=low
+
+  * Fixes: NB#156978 -  Facebook needs own debian package to install facebook.profile
+  * Fixes: NB#156302 - "Encryption required" tickybox incorrectly sets port to 5223
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Thu, 18 Feb 2010 15:00:25 +0200
+
+rtcom-accounts-ui (4.124-1) fremantle; urgency=low
+
+  * Fix NB#156210 - "Use for telephone numbers" option is not shown under Advanced
+    sip settings after configuring an account
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Fri, 12 Feb 2010 11:59:38 +0200
+
+rtcom-accounts-ui (4.123-1) fremantle; urgency=low
+
+  * Fixes: NB#135826 - rtcom-accounts-ui-dbg does not contain actual debug symbols
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Thu, 11 Feb 2010 12:03:31 +0200
+
+rtcom-accounts-ui (4.122-1) fremantle; urgency=low
+
+  * Fixes: NB#154310 - Wrong banners in SIP configuration when no address and/or
+    password entered and for illegal characters in address field
+  * Fixes: NB#152678 - Accounts with no name take the name of another account in
+    account list
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Mon,  8 Feb 2010 09:15:57 +0200
+
+rtcom-accounts-ui (4.121-3) fremantle; urgency=low
+
+  * git doesn't like empty dirs.
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Tue,  2 Feb 2010 15:23:36 +0200
+
+rtcom-accounts-ui (4.121-2) fremantle; urgency=low
+
+  * Adding the plugins/voip-support directory.
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Tue,  2 Feb 2010 14:41:33 +0200
+
+rtcom-accounts-ui (4.121-1) fremantle; urgency=low
+
+  * Fixes: NB#155287 - The VoIP support should be part of an extra package and not
+    enabled by default
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Tue,  2 Feb 2010 11:49:53 +0200
+
+rtcom-accounts-ui (4.120-1) fremantle; urgency=low
+
+  * Fixes: NB#149729 - Space between the label and field in advancend settings
+    account dialog is too small
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Thu, 14 Jan 2010 11:20:43 +0200
+
+rtcom-accounts-ui (4.119-1) fremantle; urgency=low
+
+  * Fixes: NB#152154 - Wrong Icon for SIP-out action
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Tue, 12 Jan 2010 13:17:58 +0200
+
+rtcom-accounts-ui (4.118-1) fremantle; urgency=low
+
+  * Fixes: NB#151855 - seems rtcom-accounts-ui brings into 52-5 PR 59 development
+    packages
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Tue,  5 Jan 2010 16:25:20 +0200
+
+rtcom-accounts-ui (4.117-1) fremantle; urgency=low
+
+  * Fixes: NB#145711 - Account-ui display an ugly "(null)" for protocols that dont
+    have an account
+  * Fixes: NB#149868 - SIP action for TEL field has wrong logical ID
+  * Fixes: NB#149847 - Unable to set a Google Talk account to Away
+  * Fixes: NB#138982 - Wrong gtalk status icon for user defined status
+  * Solves: NB#150559 - truncations in account wizard ui
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 18 Dec 2009 14:26:37 +0200
+
+rtcom-accounts-ui (4.116-1) fremantle; urgency=low
+
+  * Avoid crash in jabber plugin.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 11 Dec 2009 17:12:21 +0200
+
+rtcom-accounts-ui (4.115-1) fremantle; urgency=low
+
+  * Really really solves: NB#149279 - Accounts-ui crashes if Gtalk account is disabled
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 10 Dec 2009 11:22:24 +0200
+
+rtcom-accounts-ui (4.114-1) fremantle; urgency=low
+
+  * Really solves: NB#149279 - Accounts-ui crashes if Gtalk account is disabled
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon,  7 Dec 2009 15:18:53 +0200
+
+rtcom-accounts-ui (4.113-1) fremantle; urgency=low
+
+  * Solves: NB#149279 - Accounts-ui crashes if Gtalk account is disabled
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  4 Dec 2009 15:13:34 +0200
+
+rtcom-accounts-ui (4.112-1) fremantle; urgency=low
+
+  * Fixes NB#147988 - Unable to act on 'Voip and IM accounts' dialog on a certain
+    scenario.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  4 Dec 2009 15:10:58 +0200
+
+rtcom-accounts-ui (4.111-1) fremantle; urgency=low
+
+  * Fixes: NB#143310 - Use the logical ID for "Address" instead of "User name" for SIP
+    and Jabber
+  * Fixes: NB#146240 - Full Account name is not displaying for the first time after
+    configuring the Account with large username/domain name
+  * Fixes: NB#147723 - Icons of newly created accounts in 'Conversations' get truncated
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  3 Dec 2009 10:36:50 +0200
+
+rtcom-accounts-ui (4.110-1) fremantle; urgency=low
+
+  * Fixes: NB#148657 - The avatar should be scaled to 128px and only if it's not a
+    branded one
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed,  2 Dec 2009 15:05:58 +0200
+
+rtcom-accounts-ui (4.109-1) fremantle; urgency=low
+
+  * Remove even further references from rtcom-accounts-ui-client.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 30 Nov 2009 22:03:42 +0200
+
+rtcom-accounts-ui (4.108-1) fremantle; urgency=low
+
+  * Solves: NB#133538 - librtcom-accounts-ui-client-dev should not depend on libosso-abook
+    (by splitting rtcom-accounts-ui-client to a different source-tree and package(s))
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 30 Nov 2009 13:53:06 +0200
+
+rtcom-accounts-ui (4.107-2) fremantle; urgency=low
+
+  * Fixes: NB#133538 - librtcom-accounts-ui-client-dev should not depend on libosso-abook
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 27 Nov 2009 12:47:24 +0200
+
+rtcom-accounts-ui (4.107-1) fremantle; urgency=low
+
+  * Fixes: NB#148098 - Cannot require encryption for Jabber accounts
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 27 Nov 2009 12:17:38 +0200
+
+rtcom-accounts-ui (4.106-1) fremantle; urgency=low
+
+  * Fixes: NB#148464 - 'rtcom-accounts-ui' crashes, when edit dialog of a configured
+    voip account is cancelled
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 27 Nov 2009 10:06:34 +0200
+
+rtcom-accounts-ui (4.105-1) fremantle; urgency=low
+
+  * Fixes: NB#139225 - HW keyboard. It is possible to input cyrrilic characters after
+    latin character without switching language.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 25 Nov 2009 09:56:57 +0200
+
+rtcom-accounts-ui (4.104-1) fremantle; urgency=low
+
+  * Fixes: NB#147562 - Accounts UI opens in portrait mode
+  * Organize some code better. We never get _REASON_REQUESTED
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 23 Nov 2009 10:41:31 +0200
+
+rtcom-accounts-ui (4.103-1) fremantle; urgency=low
+
+  * Fixing a regression introduced in 4.102-1. The edit of a single account
+    from p-ui wouldn't work anymore.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 19 Nov 2009 13:42:43 +0200
+
+rtcom-accounts-ui (4.102-1) fremantle; urgency=low
+
+  * Fixes: NB#147305 - Unable to access "Voip and IM account " option under Settings
+    dilaog when a gtalk account is configured in the DUT.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 19 Nov 2009 11:11:00 +0200
+
+rtcom-accounts-ui (4.101-1) fremantle; urgency=low
+
+  * Fixes: NB#146893 - Accounts-ui replacing server-stored avatars with miniature
+    versions
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue, 17 Nov 2009 14:29:05 +0200
+
+rtcom-accounts-ui (4.100-1) fremantle; urgency=low
+
+  * Fixes: NB#146841 - Unable to minimize 'Account Setup:skype' dialog when no
+    accounts are configured in device.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 16 Nov 2009 17:00:36 +0200
+
+rtcom-accounts-ui (4.99-1) fremantle; urgency=low
+
+  * Fixes: NB#146296 (again) - Unable to enter Skype Account credentials when going
+    through Skype shorcut.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 13 Nov 2009 15:00:58 +0200
+
+rtcom-accounts-ui (4.98-1) fremantle; urgency=low
+
+  * Fixes: NB#146361 - "VoiP and IM accounts" dialog seen before "Select service"
+    dialog during the first chat account creation
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 12 Nov 2009 16:03:01 +0200
+rtcom-accounts-ui (4.97-2) fremantle; urgency=low
+
+  * typo in bug number 137643 should be 137634. 
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Thu, 12 Nov 2009 15:27:44 +0200
+
+rtcom-accounts-ui (4.97-1) fremantle; urgency=low
+
+  * Fixes: NB#146296 - Unable to enter Skype Account credentials when going through
+    Skype shorcut.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 11 Nov 2009 17:25:16 +0200
+
+rtcom-accounts-ui (4.96-1) fremantle; urgency=low
+
+  * Fixes: NB#145275 - New layout problem with accounts dialog
+  * Fixes: NB#133613 - Account window can be open as many time as clicked
+  * Fixes: NB#143500 - auic_client_open_new_account does nothing
+  * Fixes: NB#137634 - While creating new account username field for gtalk
+    accounts is not prefilled by domain name
+  * Fixes: NB#144591 - In Google Talk account setup screen default
+    "@gmail.com" text is not displaying while entering username
+  * Fixes: NB#144605 - In Account setup screen the cursor is visible only
+    after taping on the user name field
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  5 Nov 2009 13:26:35 +0200
+
+rtcom-accounts-ui (4.95-3) fremantle; urgency=low
+
+  * the following bugs got reopened, so we do not mention them in changelog
+    133613,143500,135826
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Fri, 30 Oct 2009 14:20:59 +0200
+
+rtcom-accounts-ui (4.95-2) fremantle; urgency=low
+
+  * bug 134834 is already closed, remove from changelog
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Tue, 27 Oct 2009 15:43:54 +0200
+
+rtcom-accounts-ui (4.95-1) fremantle; urgency=low
+
+  * Fixes: NB#143157 - Accounts UI crashes when used together with haze plugin
+  * Fixes: NB#143118 - Signing into a Google Talk account without @gmail.com suffix
+    does not report error
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 26 Oct 2009 13:26:30 +0200
+
+rtcom-accounts-ui (4.94-1) fremantle; urgency=low
+
+  * Fixes: NB#136799 - rtcom-accounts-ui crashes in 'My availability' dialog
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 26 Oct 2009 12:38:42 +0200
+
+rtcom-accounts-ui (4.93-1) fremantle; urgency=low
+
+  * addresses: NB#143500 - auic_client_open_new_account does nothing
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Wed, 21 Oct 2009 15:05:00 +0300
+
+rtcom-accounts-ui (4.92-1) fremantle; urgency=low
+
+  * Fixes: NB#136552 - Crash in IA__g_signal_handler_disconnect in sip accounts plugin
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Wed, 23 Sep 2009 13:41:35 +0300
+
+rtcom-accounts-ui (4.91-1) fremantle; urgency=low
+
+  * Fixes: NB#114738 - Jabber Register Account settings layout defect
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue,  8 Sep 2009 08:55:44 +0300
+
+rtcom-accounts-ui (4.90-1) fremantle; urgency=low
+
+  * Fixes: NB#134968 - When opening Accounts UI service selection list not shown when
+    there is no accounts setup yet
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon,  7 Sep 2009 10:35:07 +0300
+
+rtcom-accounts-ui (4.89-1) fremantle; urgency=low
+
+  * Prevent a strict-aliasing warning.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  4 Sep 2009 14:20:00 +0300
+
+rtcom-accounts-ui (4.88-1) fremantle; urgency=low
+
+  * Fixes: NB#136496 - Info banner for illegal character in resource field of Jabber
+    Advanced settings is not as per UI Doccument
+  * Fixes: NB#135308 - Avatar not shown completely when creating first IM account
+  * Fixes: NB#136552 - Crash in IA__g_signal_handler_disconnect in sip accounts plugin
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  4 Sep 2009 11:57:27 +0300
+
+rtcom-accounts-ui (4.87-1) fremantle; urgency=low
+
+  * Fixes: NB#124941 - SIP account settings is using accounts_fi_user_name instead of
+    accounts_fi_user_name_sip
+  * addresses: NB#135826 - rtcom-accounts-ui-dbg does not contain actual debug symbols
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue,  1 Sep 2009 11:03:18 +0300
+
+rtcom-accounts-ui (4.86-1) fremantle; urgency=low
+
+  * addresses: NB#133613 - Account window can be open as many time as clicked
+  * Fixes: NB#134969 - Progress indicator not shown in verifying credentials dialog
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 28 Aug 2009 10:30:12 +0300
+
+rtcom-accounts-ui (4.85-1) fremantle; urgency=low
+
+  * Fixes: NB#134847 - [BBT]Accounts CPA layout: "No accounts" text should
+  be centered
+  * Solves: NB#134834 - 'rtcom-accounts-ui' crash occurs on registering a new skype
+  account when already a skype account is enabled.
+  * Some CRITICAL error fixed.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 26 Aug 2009 15:59:34 +0300
+
+rtcom-accounts-ui (4.84-1) fremantle; urgency=low
+
+  * Fixes: NB#134288 - [BBT]Invalid port 65536 is accepted by the UI
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 24 Aug 2009 11:46:37 +0300
+
+rtcom-accounts-ui (4.83-2) fremantle; urgency=low
+
+  * Installing the librtcom-accounts-ui-client.la file.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 19 Aug 2009 12:29:03 +0300
+
+rtcom-accounts-ui (4.83-1) fremantle; urgency=low
+
+  * Solves: NB#127272 - Register new jabber account dialog behaviour inconsistent
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue, 18 Aug 2009 14:15:07 +0300
+
+rtcom-accounts-ui (4.82-1) fremantle; urgency=low
+
+  * Just fixing some compilation errors found in the previous release.
+    Should've made clean.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue, 18 Aug 2009 11:04:02 +0300
+
+rtcom-accounts-ui (4.81-1) fremantle; urgency=low
+
+  * Solves: NB#127918 - Info banner for illegal character in resource field of
+    GTalk Advanced settings is not as per UI Doccument
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue, 18 Aug 2009 10:53:20 +0300
+
+rtcom-accounts-ui (4.80-1) fremantle; urgency=low
+
+  * Fixes NB#127661 - "Username and password incorrect" information banner is
+    displayed on registering a new skype account
+  * Fix a potential memory leak.
+  * Save the secondary vcard field to the RtcomAccountItem, rather than to the
+    possibly inexisting McAccount.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 17 Aug 2009 13:38:48 +0300
+
+rtcom-accounts-ui (4.79-1) fremantle; urgency=low
+
+  * Make it so users of librtcom-accounts-ui-client are notified with a status-update
+    even when an instance crashes. Fixes a potential problem that would get the CPA
+    stuck.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 14 Aug 2009 12:24:09 +0300
+
+rtcom-accounts-ui (4.78-1) fremantle; urgency=low
+
+  * Fixes: NB#120308 - Registring an existing skype name shows wrong error message
+    (courtesy of Tan MiaoQing)
+  * Solves: NB#105653 - Entered characters are not displayed in certain scenario.
+  * Solves: NB#125161 - 'Disable account' confirmation note appears if account is
+    disabled
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 13 Aug 2009 18:45:52 +0300
+
+rtcom-accounts-ui (4.77-1) fremantle; urgency=low
+
+  * Fixes: NB#127661 - "Username and password incorrect" information banner is
+    displayed on registering a new skype account
+  * Fixes: NB#126130 - Device get hang after disconnecting the call from other end
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue, 11 Aug 2009 15:42:27 +0300
+
+rtcom-accounts-ui (4.76-1) fremantle; urgency=low
+
+  * Fixes: NB#131781 ... press_bd_nokia_on_the_phone [On the phone] logical name is
+    visible in 'Create a new persoanalized status'
+
+ -- Michal Maruska <ext-michal.2.maruska@nokia.com>  Mon, 10 Aug 2009 17:32:45 +0300
+
+rtcom-accounts-ui (4.75-1) fremantle; urgency=low
+
+  * Solves: NB#128184 - Accounts unnecessary colons in account setup dialog
+  * Makes sure the width of the account name has an upper limit.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 6 Aug 2009 11:36:42 +0300
+
+rtcom-accounts-ui (4.74-1) fremantle; urgency=low
+
+  * Non-maintainer upload.
+  * If user selects "auto" keepalive period, then leave the keepalive-interval
+    CM parameter unspecified (delete it, if already set), allowing
+    osso-mission-control or the CM to choose something sensible instead.
+    Previously, we'd set the param to 0, which now means "no keepalives".
+    Fixes: NB#117541 - SIP accounts-ui plugin can't leave keepalive-interval
+    unspecified
+
+ -- Simon McVittie <simon.mcvittie@collabora.co.uk>  Mon, 03 Aug 2009 18:35:21 +0100
+
+rtcom-accounts-ui (4.73-1) unstable; urgency=low
+
+  * Fixes: NB#127039 - 'rtcom-accounts-ui' crash occurs on enabling/disabling accounts.
+  * Fixes: NB#129058 - [BBT]Two identical strings within "signed in" dialog in Conversations
+  * Fixes: NB#130349 - [BBT]"%s is signed in to Ovi by Nokia" is not shown when signing in
+                       to an Ovi account
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon,  3 Aug 2009 15:12:51 +0300
+
+rtcom-accounts-ui (4.72-1) unstable; urgency=low
+
+  * Fixes: NB#118155 - [S2]It is possible to evoke 2 or more instances of service selection dialog.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 31 Jul 2009 13:32:20 +0300
+
+rtcom-accounts-ui (4.71-1) unstable; urgency=low
+
+  * Fixes: NB#129622 - Device get hang for few minutes after assigning large file size avatar
+  * NB#125390 - contact avatar dialog does not crop image even if it appears to
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 31 Jul 2009 10:03:07 +0300
+
+rtcom-accounts-ui (4.70-1) unstable; urgency=low
+
+  * Fixes: NB#130395 - Tuning values missing from account profiles
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 30 Jul 2009 14:31:44 +0300
+
+rtcom-accounts-ui (4.69-1) unstable; urgency=low
+
+  * Fixes: NB#125096 - Customized SIP: Loose routing setting is not correct
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 29 Jul 2009 14:53:52 +0300
+
+rtcom-accounts-ui (4.68-1) unstable; urgency=low
+
+  * Changed the SIP account parameter type for 'keepalive-interval'
+  to unsigned int. Put a dependency on telepathy-sofiasip to reflect
+  the "soft API" change.
+  Fixes: NB#127695 - Unable to configure sip accounts
+
+ -- Mikhail Zabaluev <mikhail.zabaluev@nokia.com>  Fri, 24 Jul 2009 16:02:06 +0300
+
+rtcom-accounts-ui (4.67-1) unstable; urgency=low
+
+  * Fixes: NB#123243 - GTalk profile lists Hidden as possible presence type,
+                       but the CM does not support it 
+
+ -- Michal Maruska <ext-michal.2.maruska@nokia.com>  Fri, 17 Jul 2009 09:46:29 +0300
+
+rtcom-accounts-ui (4.66-1) unstable; urgency=low
+
+  * Fixes: NB#126810 - Info banner does not mentione account name while signing in
+  * Fixes: NB#126402 - Wrong notification after setting gtalk account
+  * Fixes: NB#127546 - Accounts-Ui crash on connecting to an IM account when no
+                       connecetions are there
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 10 Jul 2009 17:46:24 +0300
+
+rtcom-accounts-ui (4.65-1) unstable; urgency=low
+
+  * Fixes: NB#126845 - [BBT][S2]Accounts- "Port number out of range (1-65536)"
+                       accounts_fi_port_out_of_rang is not showinin 0 is input
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  9 Jul 2009 10:54:52 +0300
+
+rtcom-accounts-ui (4.64-1) unstable; urgency=low
+
+  * Fixes: NB#116027 - [BBT] Confirmation is not asked when online account is edited
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed,  8 Jul 2009 16:28:31 +0300
+
+rtcom-accounts-ui (4.63-2) unstable; urgency=low
+
+  * Bumping because I messed up with the git tags.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon,  6 Jul 2009 12:47:46 +0300
+
+rtcom-accounts-ui (4.63-1) unstable; urgency=low
+
+  * Fixes: NB#122330 - [BBT] In account's applet after disabling the account, server
+                       avatar is changed to default.
+  * Fixes: NB#125959 - Changes concerning Ovi by Nokia
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon,  6 Jul 2009 12:43:19 +0300
+
+rtcom-accounts-ui (4.62-1) unstable; urgency=low
+
+  * Fixes: NB#122170 - 'rtcom-accounts-ui' crash after disable/enable SIP account
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  3 Jul 2009 15:32:40 +0300
+
+rtcom-accounts-ui (4.61-2) unstable; urgency=low
+
+  * Remove non-UTF8 characters from changelog.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  2 Jul 2009 11:36:09 +0300
+
+rtcom-accounts-ui (4.61-1) unstable; urgency=low
+
+  * Reverting a branch accidentally merged: fix-service-sorting by Artem.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  2 Jul 2009 11:30:12 +0300
+
+rtcom-accounts-ui (4.60-1) unstable; urgency=low
+
+  * Fixes: NB#125182 - [BBT]False "disk full" error in account-ui in scratchbox if
+                       user != "user"
+  * Fixes: NB#121252 - Inconsistent translation for wdgt_bd_new_feminine in Messaging
+  * Fixes: NB#123211 - Wrong gender displayed in Messaging for New button
+                       accounts_bd_new
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  2 Jul 2009 10:48:33 +0300
+
+rtcom-accounts-ui (4.59-1) unstable; urgency=low
+
+  * Fixes: NB#104969 - Nothing happens on tapping 'edit personal info' button
+  * Fixes: NB#121064 - HILDON_GTK_INPUT_MODE_DICTIONARY = on for SIP user name
+  * Fixed alignment of Jabber checkboxes
+  * Changed the Save button to Done in all advanced settings
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue,  9 Jun 2009 15:19:29 +0300
+
+rtcom-accounts-ui (4.58-1) unstable; urgency=low
+
+  * Fix GTalk advanced settings behaviour by always loading the view in the background.
+  * Fix the Check and Picker buttons theming.
+  * Remove the setting of the display-name.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue,  9 Jun 2009 11:52:11 +0300
+
+rtcom-accounts-ui (4.57-1) unstable; urgency=low
+
+  * Fixes: NB#120877 - "Cannot creat account Device storage full.Remove data to free
+                        memory" Info banner is displaying.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon,  8 Jun 2009 15:03:05 +0300
+
+rtcom-accounts-ui (4.56-1) unstable; urgency=low
+
+  * Fixes: NB#117293 - Avatars are too small and heavily downscaled
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon,  8 Jun 2009 11:41:29 +0300
+
+rtcom-accounts-ui (4.55-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Build-Depend on telepathy-mission-control 5.1.0 to ensure that we have
+    the new version of the Compat namespace constant, and trigger a rebuild.
+    No code changes.
+
+ -- Simon McVittie <simon.mcvittie@collabora.co.uk>  Fri, 05 Jun 2009 18:33:39 +0100
+
+rtcom-accounts-ui (4.55-1) unstable; urgency=low
+
+  * Added regex based validation and min/max length checks to the
+    username and param-string widgets
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Fri,  5 Jun 2009 13:31:15 +0300
+
+rtcom-accounts-ui (4.54-1) unstable; urgency=low
+
+  * Fixes: NB#101792 - Handling of Multiple Sky Accounts
+  * Fixes: NB#114745 - Informative text in Nokia Account setup dialog is not as per
+                       expected
+  * Fixes: NB#115363 - HILDON_GTK_INPUT_MODE_AUTOCAP and HILDON_GTK_INPUT_MODE_DICTIONARY
+                       are ON for STUN server field in Google Talk Advance settings
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue,  2 Jun 2009 13:26:21 +0300
+
+rtcom-accounts-ui (4.53-1) unstable; urgency=low
+
+  * Fixes: NB#118758 - avatar thumbnail alignment in edit account view
+  * Fixes: NB#118766 - advanced settings dialog, label with text field not aligned
+                       correctly
+  * Fixes: NB#118641 - HILDON_GTK_INPUT_MODE_DICTIONARY = ON for screen name in edit
+                       account dialog
+  * Fixes: NB#117461 - Port and STUN port values in SIP advanced settings are negative
+  * Fixes: NB#97408  - Accounts applet is missing from UI spec
+  * Fixes: NB#114699 - Remove Password field from advanced SIP account settings
+  * Fixes: NB#106189 - SIP advanced settings are not as per UI spec
+  * Fixes: NB#104969 - Nothing happens on tapping 'edit personal info' button
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 29 May 2009 16:32:13 +0300
+
+rtcom-accounts-ui (4.52-1) unstable; urgency=low
+
+  * Fixes: NB#116586 - It is not possible to connect to existing OVI account -
+                       additional 'ovi.com' string.
+  * Fixes: NB#117955 - Wrong infomation banner shown when invalid domain name is
+                       entered in user name field
+  * Fixes: NB#118044 - Wrong infomation banner shown when a space is entered in
+                       user name field
+  * Fixes: NB#118050 - Keep on displaying the Sign in dialog for long time
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 25 May 2009 16:29:59 +0300
+
+rtcom-accounts-ui (4.51-1) unstable; urgency=low
+
+  * Merge two patches by Simon <simon.mcvittie@collabora.co.uk>:
+    Use the new standard TP API for creating accounts.
+    Don't hardcode the name of the Compat account interface.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri, 15 May 2009 10:09:06 +0300
+
+rtcom-accounts-ui (4.50-1) unstable; urgency=low
+
+  * Remove the @ovi.com prefill from the Nokiachat account
+  * Fix some corner cases in handling port numbers in RtcomParamInt
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue, 12 May 2009 08:51:58 +0300
+
+rtcom-accounts-ui (4.49-1) unstable; urgency=low
+
+  * Just silence a warning.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 11 May 2009 13:54:57 +0300
+
+rtcom-accounts-ui (4.48-1) unstable; urgency=low
+
+  * Fixes: NB#113291 - Accounts details are not shown as per the UI spec
+  * Fixes: NB#114114 - Information banner when we enter space in username field is not
+                       as per UI Specifications
+  * Fixes: NB#114623 - Unable to enable/disable 'Ignore SSL certificate errors' when
+                       'Force old SSL' is enabled
+  * Fixes: NB#115363 - HILDON_GTK_INPUT_MODE_AUTOCAP and
+                       HILDON_GTK_INPUT_MODE_DICTIONARY are ON for STUN server field
+                       in Google Talk Advance settings
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 11 May 2009 13:27:09 +0300
+
+rtcom-accounts-ui (4.47-1) unstable; urgency=low
+
+  * Fixes: NB#114738 - Jabber Register Account settings layout defect
+  * Fixes: NB#114526 - Chat - §cerm_device_memory_full§ is not shown properly
+  * Fixes: NB#114496 - Deleting an account does not work
+  * Moving away from HildonNumberEditor (deprecated)
+  * Reconnecting an account if parameters change
+  * New presence icons
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  8 May 2009 14:43:08 +0300
+
+rtcom-accounts-ui (4.46-2) unstable; urgency=low
+
+  * Bumping dependency from libaccounts to 4.5.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue,  5 May 2009 12:16:31 +0300
+
+rtcom-accounts-ui (4.46-1) unstable; urgency=low
+
+  * Using MC has-been-online flag to verify the account.
+    Fixes: NB#105618, NB#107117, NB#110941.
+  * Fixes: NB#113525 - Edit SIP account dialog is not as per UI spec.
+  * Fixes: NB#113621 - Entered characters in the password field are displayed.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 29 Apr 2009 15:33:02 +0300
+
+rtcom-accounts-ui (4.45-1) unstable; urgency=low
+
+  * Fixes: NB#110522 - auic_client_open_new_account not implemented
+  * Fixes: NB#105676 - User details are not reflected instantly.
+  * Fixes: NB#103762 - Inconsistent button order addressbook vs. rtcom-accounts-ui
+  * Fixes: NB#104954 - Special marks is shown for unrecognized character
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 16 Apr 2009 13:51:38 +0300
+
+rtcom-accounts-ui (4.44-1) unstable; urgency=low
+
+  * Fixes: NB#106316 - Unable to set the default avatar to the configured account.
+  * Fixes: NB#105329 - Crop dialog shown for pre installed images in Accounts applet.
+  * Fixes: NB#107750 - Auto capitalization is not uniform across various password fields.
+  * Allow multiple instances.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue,  7 Apr 2009 14:52:19 +0300
+
+rtcom-accounts-ui (4.43-1) unstable; urgency=low
+
+  * librtcom-accounts-ui-client: fix a possible memory corruption.
+
+  * Fixes: NB#109139 - VCardDefault=1 set for nokiachat and jabber profile
+    Changed VCardDefault to 0 in nokiachat.profile, so that Jabber is the
+    default handler for X-JABBER vcard field.
+
+  * Fixes: NB#108240 - Cursor placing and info banner shown is not proper in
+                       New Jabber account dialog when username field is
+                       empty
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu,  2 Apr 2009 17:06:09 +0300
+
+rtcom-accounts-ui (4.42-1) unstable; urgency=low
+
+  * Fixes: NB#107117 - 'Problems connecting to service' note if chat account
+                       started to create without connection
+  * Fixes: NB#109409 - Sign in button state is not proper in certain scenario
+  * Fixes: NB#106004 - Conversation application gets closed , if created new
+                       account without connecting to WLAN.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  2 Apr 2009 12:08:30 +0300
+
+rtcom-accounts-ui (4.41-1) unstable; urgency=low
+
+  * The content of the Gtalk advanced check button should be left aligned. Fixes: NB#100608.
+  * Removed old packages compatibility names.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed,  1 Apr 2009 13:40:21 +0300
+
+rtcom-accounts-ui (4.40-1) unstable; urgency=low
+
+  * Fixes: NB#104377 - It is possible to select SIP/Jabber/Google Talk service and login with Nokia Chat account
+  * Fixes: NB#107279 - Accounts UI must not use portrait mode. It should be only in landscape.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 30 Mar 2009 16:38:07 +0300
+
+rtcom-accounts-ui (4.39-1) unstable; urgency=low
+
+  * Fixes: NB#107617 - There's no visible hint for the user about the non-editable user name field
+  * Fixes: NB#108576 - call ui crashes observed while configuring accounts
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 27 Mar 2009 19:49:22 +0200
+
+rtcom-accounts-ui (4.38-1) unstable; urgency=low
+
+  * Fixing some compilation error that I accidentally placed in 4.37.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 27 Mar 2009 10:27:33 +0200
+
+rtcom-accounts-ui (4.37-1) unstable; urgency=low
+
+  * Fixes: NB#108101 - Signing in new account does not work due to concurrent RequestConnection calls.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 27 Mar 2009 10:11:31 +0200
+
+rtcom-accounts-ui (4.36-1) unstable; urgency=low
+
+  * Fixes: NB#98320 - Alternative API for invoking the accounts plugin 
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu, 26 Mar 2009 13:32:40 +0200
+
+rtcom-accounts-ui (4.35-1) unstable; urgency=low
+
+  * Fixing the right default avatar. Fixes: NB#103079.
+  * Remove 'call' action from nokiachat profile. Fixes: NB#105116.
+  * Give focus to the username_entry in the relization of the RtcomLogin widget. Fixes: NB#95788.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 26 Mar 2009 11:57:32 +0200
+
+rtcom-accounts-ui (4.34-1) unstable; urgency=low
+
+  * Fixes: NB#97553 - Able to create two chat accounts with the same username
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 25 Mar 2009 10:22:59 +0200
+
+rtcom-accounts-ui (4.33-1) unstable; urgency=low
+
+  * Fixes: NB#100608 - Advanced account settings dialog with cutoff input text
+    field and incorrect checkbox button
+  * Fixes: NB#101920 - Save button of Edit account dialog is not working properly
+    in certain scenario
+  * Fixes: NB#103074 - Screen name and avatar in SIP account edit dialog
+  * Fixes: NB#105431 - prediction is on in account entry fields
+  * Fixes: NB#106239 - HILDON_GTK_INPUT_MODE_AUTOCAP and
+    HILDON_GTK_INPUT_MODE_DICTIONARY are ON for Username field of Register new
+    jabber account dialog
+  * Fixes: NB#107073 - HILDON_GTK_INPUT_MODE_AUTOCAP and
+    HILDON_GTK_INPUT_MODE_DICTIONARY are ON for advanced settings
+  * Fixes: NB#107673 - memory leak found while configuring IM-account from UI
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue, 24 Mar 2009 17:35:08 +0200
+
+rtcom-accounts-ui (4.32-1) unstable; urgency=low
+
+  * Fix a crasher bug in the client library.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Tue, 24 Mar 2009 09:26:45 +0200
+
+rtcom-accounts-ui (4.31-1) unstable; urgency=low
+
+  * Disconnect signals handlers when the RtcomEdit is disposed (fixes a crash).
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 23 Mar 2009 15:11:13 +0200
+
+rtcom-accounts-ui (4.30-1) unstable; urgency=low
+
+  * Remove all calls to gtk_dialog_run.
+
+  * Add standalone application rtcom-accounts-ui. This can be implements a D-Bus
+    interface that allows other processes to perform some basic operations
+    (this release only implements showing the accounts list).
+
+  * Add rtcom-accounts-ui-client, a C library which wraps the D-Bus API.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 23 Mar 2009 10:00:16 +0200
+
+rtcom-accounts-ui (4.29-1) unstable; urgency=low
+
+  * Fixes: NB#102895 - Crash when tapped on Gtalk contacts button in groups dialog
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 16 Mar 2009 17:08:59 +0200
+
+rtcom-accounts-ui (4.28-1) unstable; urgency=low
+
+  * Fixes: NB#105743 - rtcom-call-ui crashes when account is configured without prior
+    connecting to an IAP
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 16 Mar 2009 16:53:44 +0200
+
+rtcom-accounts-ui (4.27-2) unstable; urgency=low
+
+  * The .so file belongs to the rtcom-accounts-ui package and not the -dev one.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 16 Mar 2009 16:09:49 +0200
+
+rtcom-accounts-ui (4.27-1) unstable; urgency=low
+
+  * Fixes: NB#101370 - New account is not created on jabber.org
+  * Fixes: NB#101775 - Info banner not shown when passwords mismatch on registering
+    new jabber account
+  * Fixes: NB#105382 - "Signin in" dialog for "rediffmail.com" when creating a  Nokia
+    chat account shows forever
+  * Fixes: NB#96231 - No action when tapped on Forgot password button.
+  * Fixes: NB#98897 - The title is not being displayed for edit account dialog
+  * Fixes: NB#98901 - Title of account setup Login dialog is not displayed
+  * Fixes: NB#101567 - "User Name" in SIP advanced settings should map to account
+    parameter auth-user
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 16 Mar 2009 14:09:16 +0200
+
+rtcom-accounts-ui (4.26-1) unstable; urgency=low
+
+  * Fixes: NB#104844 - Call UI crashes while trying to configure new account.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon,  9 Mar 2009 13:44:37 +0200
+
+rtcom-accounts-ui (4.25-1) unstable; urgency=low
+
+  * Fixes: NB#95804 - Nickname is not displayed in accounts list
+  * Fixes: NB#98913 - UI string is 'FIXResource' for Jabber advanced settings
+  * Fixes: NB#91485 - Default Resouce name in "Account setup" dialog for
+    Gtalk chat account is blank
+  * Fixes: NB#102750 - No title for accounts list dialog
+  * Fixes: NB#103915 - Username should not be editable in edit accounts dialog
+  * Beauty fixes in the accounts list.
+  * Fixing a potential buffer overrun vulnerability.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  6 Mar 2009 16:17:19 +0200
+
+rtcom-accounts-ui (4.24-1) unstable; urgency=low
+
+  * The pixbuf for the avatar in the Account Edit page is now scaled and not cropped.
+  * Edit Personal Info button implemented. Fixes: NB#95825.
+  * Register and Forgot Password buttons in Nokia Chat account open browser.
+    Fixes: NB#98743.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  6 Mar 2009 09:26:38 +0200
+
+rtcom-accounts-ui (4.23-1) unstable; urgency=low
+
+  * Fix the editing, broken accidentally in 4.22.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  5 Mar 2009 15:44:45 +0200
+
+rtcom-accounts-ui (4.22-4) unstable; urgency=low
+
+  * Fixing dependencies for librtcom-accounts-ui-dev.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  5 Mar 2009 14:35:52 +0200
+
+rtcom-accounts-ui (4.22-3) unstable; urgency=low
+
+  * Fix name of rtcom-accounts-ui.pc.in package. 
+  * Removing the -1 suffix from some dependency, as it's unneeded and generates a warning.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu,  5 Mar 2009 13:49:54 +0200
+
+rtcom-accounts-ui (4.22-1) unstable; urgency=low
+
+  * Immplemented account verification. Fixes: NB#95831, NB#99350.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed,  4 Mar 2009 12:48:22 +0200
+
+rtcom-accounts-ui (4.21-3) unstable; urgency=low
+
+  * Adding Replaces and Conflicts to debian/control
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Tue,  3 Mar 2009 13:44:45 +0200
+
+rtcom-accounts-ui (4.21-2) unstable; urgency=low
+
+  * Adding Provides lines to debian/control
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 27 Feb 2009 16:34:21 +0200
+
+rtcom-accounts-ui (4.21-1) unstable; urgency=low
+
+  * Clean up of unneeded files
+  * Fix include files for librtcom-accounts-widgets
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 27 Feb 2009 14:25:44 +0200
+
+rtcom-accounts-ui (4.20-1) unstable; urgency=low
+
+  * Huge renaming of packages.
+  * Creating librtcom-accounts-ui-dev package. Fixes: NB#100643.
+  * Small clean up of unused files.
+  * Fixing some hildon defines after they went out of Hildon.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 26 Feb 2009 10:54:52 +0200
+
+osso-accounts (4.19-1) unstable; urgency=low
+
+  * Setting account conditions upon creation. Fixes: NB#101372.
+  * Remove all references to hildon-help.
+  * SIP plugin: set default values for check boxes only if the McAccount is NULL
+    (i.e. new account). Fixes: NB#101720.
+  * GTalk plugin: _really_ cache the advanced settings dialog. Fixes: NB#102058.
+  * Removing the split-account capability from profiles.
+  * SIP port value fixed. Fixes: NB#98902
+  * Fixing info notes for illegal characters. Fixes: NB#95771.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 19 Feb 2009 16:10:35 +0200
+
+osso-accounts (4.18-1) unstable; urgency=low
+
+  * Avatar support. Fixes: NB#96517.
+  * Layout fixes. Fixes: NB#100469, NB#100577.
+  * Fix default Jabber resource. Fixes: NB#93144.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 11 Feb 2009 13:37:48 +0200
+
+osso-accounts (4.17-1) unstable; urgency=low
+
+  * Validate edit screen.
+  * Fix password field in login. Fixes: NB#98323, NB#99663, NB#99659.
+  * Run wizard from the inside of the class (accounts_wizard_dialog_run).
+  * Saves the jabber advanced  dialog in the context, for future retrieval.
+    Fixes: NB#98955.
+  * GTalk advanced: Removes the conference field and uses right id for the
+    resource and its default value. Fixes: NB#96272.
+  * Jabber to support multiple profiles. Fixes: NB#90989.
+  
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed,  4 Feb 2009 11:26:59 +0200
+
+osso-accounts (4.16-1) unstable; urgency=low
+
+  * Register Jabber account. Fixes: NB#98747.
+  * Validate empty fields. Fixes: NB#97757.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 29 Jan 2009 14:45:35 +0200
+
+osso-accounts (4.15-1) unstable; urgency=low
+
+  * Refactoring callback functions on RtcomLogin and RtcomEdit, so that the
+  buttons are not exposed.
+  * No .desktop file for the controlpanel anymore. Fixes: NB#97762.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 22 Jan 2009 10:17:14 +0200
+
+osso-accounts (4.14-1) unstable; urgency=low
+
+  * Basic jabber functionality: create existing account, edit, delete,
+  enable/disable.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 14 Jan 2009 17:24:04 +0200
+
+osso-accounts (4.13-1) unstable; urgency=low
+
+  * Bumping dependency from libaccounts to 4.2.
+  * Displays the correct confirmation message, according to whether the
+  account is connected or not, before deleting it. Fixes NB#97404.
+  * Update the accounts list when an account's name is edited. Fixes:
+  NB#97471.
+  * Setting default SIP port also when editing existing account. Fixes:
+  NB#97472.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri,  9 Jan 2009 16:49:59 +0200
+
+osso-accounts (4.12-1) unstable; urgency=low
+
+  * Set the ip-route condition on created account. Fixes: NB#96534.
+  * Fix logical IDs. Fixes: NB#96461, NB#96284, NB#96298, NB#95941.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 29 Dec 2008 10:29:27 +0200
+
+osso-accounts (4.11-1) unstable; urgency=low
+
+  * Misc profile fixes.
+  * Change button of advanced settings from OK to Save. Fixes NB#95923.
+  * Implementing account deletion. Fixes NB#95853.
+  * If user declines confirmation note upon disabling an account, restore the
+  check button to the previous state. Fixes: NB#95868.
+  * Removing setting the presence on the new account, because presence-ui
+  0.19-1 does it.
+  * GTalk plugin: when editing account, use the default stun port of 3478,
+  unless the user changes it. Fixes: NB#95762.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Wed, 17 Dec 2008 16:09:39 +0200
+
+osso-accounts (4.10-1) unstable; urgency=low
+
+  * Added SIP advanced defaults.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Mon, 15 Dec 2008 12:20:25 +0200
+
+osso-accounts (4.9-1) unstable; urgency=low
+
+  * Using the correct ControlPanel icon.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Sun, 14 Dec 2008 13:06:12 +0200
+
+osso-accounts (4.8-1) unstable; urgency=low
+
+  * UI beutify: right spacing, right dialog sizes, remove ellipsization.
+  * Code beutify: fix a comment and a warning.
+  * Changing AccountsWizardDialog from GtkDialog to HildonDialog.
+  * Update gtk-docs.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Sat, 13 Dec 2008 15:10:38 +0200
+
+osso-accounts (4.7-1) unstable; urgency=low
+
+  * Fixing default value and range for SIP's stun-port.
+  * Changing the main dialog from GtkDialog to HildonDialog and adding the
+  "New" button properly.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Sat, 13 Dec 2008 10:40:37 +0200
+
+osso-accounts (4.6-1) unstable; urgency=low
+
+  * Fixing a crash.
+  * Fixing the account creation: it works now.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 12 Dec 2008 16:29:17 +0200
+
+osso-accounts (4.5-2) unstable; urgency=low
+
+  * Fixing debian/osso-accounts-settings.install
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 12 Dec 2008 14:27:39 +0200
+
+osso-accounts (4.5-1) unstable; urgency=low
+
+  * 4.4 was broken.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 12 Dec 2008 14:05:39 +0200
+
+osso-accounts (4.4-1) unstable; urgency=low
+
+  * Fixing the icons.
+  * Fixing the pkg-config file osso-accounts-settings.pc.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Fri, 12 Dec 2008 13:47:21 +0200
+
+osso-accounts (4.3-1) unstable; urgency=low
+
+  * nokiachat plugin debianized
+  * gtk-docs updated.
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 11 Dec 2008 16:43:18 +0200
+
+osso-accounts (4.2-1) unstable; urgency=low
+
+  * Adding osso-account-plugin-nokiachat.install
+
+ -- Salvatore Iovene <ext-salvatore.iovene@nokia.com>  Thu, 11 Dec 2008 16:17:51 +0200
+
+osso-accounts (4.1-1) unstable; urgency=low
+
+  * Updating profile files.
+
+ -- Salvatore Iovene <siovene@debian.cosmic>  Thu, 11 Dec 2008 15:53:26 +0200
+
+osso-accounts (4.0-1) unstable; urgency=low
+
+  * Bumping to 4.0
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Thu, 16 Oct 2008 14:00:12 +0300
+
+osso-accounts (3.77-1) unstable; urgency=low
+
+  * Include mc-profile.h from libmcclient rather than libmissioncontrol
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Thu,  7 Aug 2008 12:05:49 +0300
+
+osso-accounts (3.76-1) unstable; urgency=low
+
+  * Do not crash when there are no protocols in a service
+  * Make the dialog buttons visible on the Fremantle toolkit, too
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Mon,  4 Aug 2008 17:58:01 +0300
+
+osso-accounts (3.75-2) unstable; urgency=low
+
+  * Set a dependency on a recent libmcclient-dev package. 
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Wed, 30 Jul 2008 11:46:33 +0300
+
+osso-accounts (3.75-1) unstable; urgency=low
+
+  * Always start up with the accounts list view.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu,  3 Jul 2008 17:10:00 +0300
+
+osso-accounts (3.74-1) unstable; urgency=low
+
+  * Move casts to another place, just to make GCC happier.
+
+  * Introduce new properties to tell when account plugins have completed
+    their initialization.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu,  3 Jul 2008 11:37:02 +0300
+
+osso-accounts (3.73-1) unstable; urgency=low
+
+  * Update the type definition macros to match the ones from the new GLib.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Tue,  1 Jul 2008 13:20:22 +0300
+
+osso-accounts (3.72-1) unstable; urgency=low
+
+  * Port the package to use libmcclient.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri, 27 Jun 2008 09:50:01 +0300
+
+osso-accounts (3.71-1) unstable; urgency=low
+
+  * Fix possible crash when an uninitialized variable could be used.
+
+  * Add invalid chars for GTalk resource name. Fixes: NB#83189.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Wed,  2 Apr 2008 10:02:59 +0300
+
+osso-accounts (3.70-1) unstable; urgency=low
+
+  * Clear the normalized name only if the account name actually changes.
+    Fixes: NB#81030.
+
+  * Use gtk_file_filter_add_pixbuf_formats() instead of hard-coding
+    supported formats
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Wed, 19 Mar 2008 16:04:07 +0200
+
+osso-accounts (3.69-1) unstable; urgency=low
+
+  * Check username uniqueness before storing settings. Fixes: NB#80275.
+
+  * Show error banner when chatroom server is left empty. Fixes: NB#80622.
+
+  * Make coverity tool a bit happier. Fixes: NB#80893.
+
+  * Make sure the widget that didn't validate is on the active page of a
+    GtkNotebook. Fixes: NB#80580.
+
+  * Use the advanced settings dialog window as parent for the Hildon
+    banner.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Wed, 20 Feb 2008 15:54:59 +0200
+
+osso-accounts (3.68-1) unstable; urgency=low
+
+  * Revert a fix with unwanted side-effects (Fixes: NB#80621)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 13 Feb 2008 18:17:25 +0200
+
+osso-accounts (3.67-1) unstable; urgency=low
+
+  * SIP advanced settings:
+    Show errors as banners so user does not need a serial console
+    access to notice them... (Fixes: NB#80580)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Tue, 12 Feb 2008 15:25:21 +0200
+
+osso-accounts (3.66-1) unstable; urgency=low
+
+  * Jabber and GTalk plugins:
+    Add the semicolon to the list of invalid username characters.
+    Fixes: NB#79814.
+    Also add the hash to the list of invalid username characters.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu,  7 Feb 2008 17:21:35 +0200
+
+osso-accounts (3.65-1) unstable; urgency=low
+
+  * Jabber plugin:
+    Disable the advanced settings dialog while registering a new account.
+    Fixes: NB#79554.
+
+  * Jabber plugin:
+    Correctly get the toplevel window, don't use the RtcomPage.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Wed,  6 Feb 2008 16:42:56 +0200
+
+osso-accounts (3.64-1) unstable; urgency=low
+
+  * Show an error if account creation fails (Fixes: NB#80299)
+  * Make the advanced settings windows wider, and shrink the port fields.
+    (Fixes: NB#76821)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed,  6 Feb 2008 12:20:03 +0200
+
+osso-accounts (3.63-1) unstable; urgency=low
+
+  * Add video-p2p capability to each profile, so that we have video support
+    also after fixing NB#80075
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Thu, 31 Jan 2008 17:43:21 +0200
+
+osso-accounts (3.62-1) unstable; urgency=low
+
+  * Get the default display name from the profile. Fixes: NB#80079.
+
+  * Sort services primarily by priority, secondarily by the service name
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 30 Jan 2008 16:31:39 +0200
+
+osso-accounts (3.61-1) unstable; urgency=low
+
+  * Clear the normalized name when changing the account name.
+    Fixes: NB#79632.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Wed, 23 Jan 2008 10:25:31 +0200
+
+osso-accounts (3.60-1) unstable; urgency=low
+
+  * Set the transiency of the "flash full" banner correctly (Fixes: NB#79185)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Thu, 10 Jan 2008 16:07:54 +0200
+
+osso-accounts (3.59-1) unstable; urgency=low
+
+  * Tweak the size of the accounts dialog (Fixes: NB#76906)
+  * Enable coverage support
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Mon,  3 Dec 2007 11:30:10 +0200
+
+osso-accounts (3.58-1) unstable; urgency=low
+
+  * Correctly determines the empty widget in which to move the cursor.
+    Fixes: NB#74869.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Wed,  7 Nov 2007 13:45:41 +0200
+
+osso-accounts (3.57-2) unstable; urgency=low
+
+  * Generate documentation package for libosso-rtcom-accounts.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 22 Oct 2007 12:10:54 +0300
+
+osso-accounts (3.57-1) unstable; urgency=low
+
+  * RtcomAvatarChooser: save avatar in the format defined in the profile
+    (default is still image/png)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 17 Oct 2007 15:21:06 +0300
+
+osso-accounts (3.56-1) unstable; urgency=low
+
+  * Don't leak the GladeXML objects.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Tue, 16 Oct 2007 12:09:07 +0300
+
+osso-accounts (3.55-1) unstable; urgency=low
+
+  * Make g_object_weak_ref() conditional as it should've been
+    (completes the previous fix)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Tue, 16 Oct 2007 10:19:40 +0300
+
+osso-accounts (3.54-1) unstable; urgency=low
+
+  * Disconnect "store-settings" signal handler when the edit
+    context is destroyed (Fixes: NB#73090)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Mon, 15 Oct 2007 19:13:50 +0300
+
+osso-accounts (3.53-2) unstable; urgency=low
+
+  * Fix documentation, allowing package to be built. 
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri, 28 Sep 2007 15:13:53 +0300
+
+osso-accounts (3.53-1) unstable; urgency=low
+
+  * Fix pkg-config file for osso-rtcom-accounts: adding dependencies.
+
+  * Generate documentation for libosso-rtcom-accounts.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri, 28 Sep 2007 14:00:33 +0300
+
+osso-accounts (3.52-1) unstable; urgency=low
+
+  * Workaround for the case when Next button is pressed when widgets are
+    not realized. Fixes: NB#70640.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 24 Sep 2007 15:09:58 +0300
+
+osso-accounts (3.51-1) unstable; urgency=low
+
+  * Allow RtcomParamString widgets not to have an associated field; make
+    the verify password widget into a RtcomParamString.
+    Fixes: NB#70562.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri, 21 Sep 2007 16:48:53 +0300
+
+osso-accounts (3.50-1) unstable; urgency=low
+
+  * Do not override plugins' insensitive messages (Fixes: NB#68641)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Fri, 14 Sep 2007 17:33:02 +0300
+
+osso-accounts (3.49-1) unstable; urgency=low
+
+  * Make RtcomAvatarChooser a button instead of an event box
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Thu, 13 Sep 2007 18:36:42 +0300
+	
+osso-accounts (3.48-1) unstable; urgency=low
+
+  * Add help button on advanced configuration dialogs.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu, 13 Sep 2007 16:55:58 +0300
+
+osso-accounts (3.47-1.1) unstable; urgency=low
+
+  * added -doc package
+
+ -- Dmitry Rozhkov <dmitry.1.rozhkov@nokia.com>  Thu, 13 Sep 2007 11:51:17 +0300
+
+osso-accounts (3.47-1) unstable; urgency=low
+
+  * Add --disable-cast-checks, --disable-asserts, --disable-checks and
+    --enable-debug options.
+
+  * sip-plugin: Disable TLS and remove proxy options
+
+  * sip-plugin: remove ``priority'' default settings from profile, since it is
+    not a valid parameter for SIP.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu, 13 Sep 2007 11:09:20 +0300
+
+osso-accounts (3.46-1) unstable; urgency=low
+
+  * Set "Not available" insensitive messages on wizard buttons
+    (Fixes: NB#68725)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Fri,  7 Sep 2007 10:25:05 +0300
+
+osso-accounts (3.45-1) unstable; urgency=low
+
+  * Don't dim the ``Finish'' button when returning back to the previous
+    screen. But dim it if something gets changed. Fixes: NB#68293.
+
+  * Don't undim the next page button while the second password field is
+    empty. Fixes: NB#68641.
+
+  * Add rtcom_page_set_object_can_next() API to allow any GObject to be
+    taken into account for the next page button dimming/undimming logic.
+
+  * Show default parameters from profile, when creating a new account.
+
+  * Documentation improved for libaccounts.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri,  7 Sep 2007 10:14:37 +0300
+
+osso-accounts (3.44-1) unstable; urgency=low
+
+  * Use addr_ib_avatar_too_big from osso-addressbook translation
+    domain (Fixes: NB#66294)
+
+  * Make the SIP plugin only consider profiles whose ConfigurationUI
+    field is set to "osso-accounts"
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed,  5 Sep 2007 10:21:39 +0300
+
+osso-accounts (3.43-1) unstable; urgency=low
+
+  * Add missing linker option in libaccounts.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu, 30 Aug 2007 15:36:41 +0300
+
+osso-accounts (3.42-1) unstable; urgency=low
+
+  * Updating logical string for account browse button.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu, 30 Aug 2007 12:17:02 +0300
+
+osso-accounts (3.41-1) unstable; urgency=low
+
+  * Update valid characters check for username and domain fields.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu, 30 Aug 2007 11:39:51 +0300
+
+osso-accounts (3.40-1) unstable; urgency=low
+
+  * Add a checkbox for enabling calls to PSTN lines
+  * Use OssoABookAvatarPopup for selecting avatars
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 29 Aug 2007 12:16:12 +0300
+
+osso-accounts (3.39-1) unstable; urgency=low
+
+  * Upon disabling account, popup confirmation note only if the account is
+    connected. Fixes: NB#51091.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 27 Aug 2007 11:52:44 +0300
+
+osso-accounts (3.38-1) unstable; urgency=low
+
+  * Show confirmation dialog before registering Jabber accounts, even if
+    connectivity is available. Fixes: NB#66600.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri, 24 Aug 2007 11:05:40 +0300
+
+osso-accounts (3.37-1) unstable; urgency=low
+
+  * Jabber plugin: fix retrieval of advanced settings on account registration.
+    Fixes: NB#66370.
+
+  * Update copyright notice on all source files.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Tue, 21 Aug 2007 16:54:11 +0300
+
+osso-accounts (3.36-1) unstable; urgency=low
+
+  * Increase the minimum width of the dialog, so that pages don't change
+    sizes for most locales.
+
+  * Don't set the width-request on the dialog, but on the widget that
+    actually need it.  Fixes: NB#66081.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Tue, 21 Aug 2007 09:48:11 +0300
+
+osso-accounts (3.35-1) unstable; urgency=low
+
+  * Set insensitive messages for Edit and Delete buttons
+    Fixes: NB#66076
+
+  * Increase the buffer size for confirmation messages.
+    Fixes: NB#66126.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 20 Aug 2007 16:00:47 +0300
+
+osso-accounts (3.34-1) unstable; urgency=low
+
+  * Ensure initial focus is on the first visible item (Fixes: NB#65135)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Mon, 20 Aug 2007 09:39:26 +0300
+
+osso-accounts (3.33-1) unstable; urgency=low
+
+  * In the account editing pages, set the focus to the proper widgets on page
+    entry.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu, 16 Aug 2007 15:01:13 +0300
+
+osso-accounts (3.32-1) unstable; urgency=low
+
+  * Install include files in /usr/include/libosso-rtcom-accounts, instead
+    of /usr/include/osso-rtcom-accounts.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Tue, 14 Aug 2007 09:53:03 +0300
+
+osso-accounts (3.31-1) unstable; urgency=low
+
+  * Add pkg-config file for osso-rtcom-accounts, and fix that of libaccounts.
+
+  * Allow building of gtk-doc API reference.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri, 10 Aug 2007 12:08:11 +0300
+
+osso-accounts (3.30-1) unstable; urgency=low
+
+  * Install headers for libosso-rtcom-accounts and libaccounts.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu,  9 Aug 2007 14:42:04 +0300
+
+osso-accounts (3.29-1) unstable; urgency=low
+
+  * SIP plugin now handles all the profiles whose protocol is "sip".
+
+  * Rename the glade hildon support library to rtcom-hildon, to avoid
+    possible collisions with desktop.
+
+  * Rename some API for better consistency.
+
+  * Add gtk-docstrings to APIs.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu,  9 Aug 2007 10:28:27 +0300
+
+osso-accounts (3.28-1) unstable; urgency=low
+
+  * Introduce the AccountService class, whose objects represent the
+    Telepathy profiles, to allow for a plugin to provide support for more
+    than one profile.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon,  6 Aug 2007 15:46:05 +0300
+
+osso-accounts (3.27-2) unstable; urgency=low
+
+  * the package libaccounts-rtcom0 splited up into packages:
+    libaccounts-glade and libosso-rtcom-accounts0
+  * debug packages added
+
+ -- Dmitry Rozhkov <dmitry.1.rozhkov@nokia.com>  Fri,  3 Aug 2007 15:50:52 +0300
+
+osso-accounts (3.27-1) unstable; urgency=low
+
+  * Enable "Auto-detect STUN" by default as it used to be
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Thu, 26 Jul 2007 14:52:08 +0300
+
+osso-accounts (3.26-1) unstable; urgency=low
+
+  * Bind "Auto-detect STUN" to "discover-stun" parameter
+  * For the time being, bind "Authentication user name" to
+    "auth-user" instead of the less useful "extra-auth-user" param
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Thu, 26 Jul 2007 13:58:03 +0300
+
+osso-accounts (3.25-1) unstable; urgency=low
+
+  * Tweak label widths to make wrapping work properly, still avoiding
+    unnecessary resizes of the toplevel window
+  * Fix uniqueness check in edit mode
+  * Show "Contacts will be copied from server" when appropriate
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 25 Jul 2007 14:41:59 +0300
+
+osso-accounts (3.24-1) unstable; urgency=low
+
+  * Use dbus_g_bus_get() instead of tp_get_bus() to get reference
+    counting right.
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 25 Jul 2007 11:31:45 +0300
+
+osso-accounts (3.23-1) unstable; urgency=low
+
+  * Plug leaks in jabber account registration (Fixes: NB#64165)
+  * Make account uniqueness check work also when registering a new account
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 25 Jul 2007 09:58:44 +0300
+
+osso-accounts (3.22-1) unstable; urgency=low
+
+  * Check account uniqueness correctly (Fixes: NB#64067)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Tue, 24 Jul 2007 11:02:53 +0300
+
+osso-accounts (3.21-1) unstable; urgency=low
+
+  * Use libhildonmime and hildon_uri_open() to launch the browser in gtalk
+    plugin (Fixes: NB#63875)
+  * Fix wrapping on gtalk new account page
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Fri, 20 Jul 2007 11:29:50 +0300
+
+osso-accounts (3.20-1) unstable; urgency=low
+
+  * Enable autocompletion in username field. Fixes: NB#58596.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 16 Jul 2007 10:15:42 +0300
+
+osso-accounts (3.19-1) unstable; urgency=low
+
+  * Fix creation of jabber accounts.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu, 12 Jul 2007 08:41:11 +0300
+
+osso-accounts (3.18-1) unstable; urgency=low
+
+  * Use a workaround for gtk_dialog_run() corrupting the GMainLoop.
+    Fixes: NB#62217.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon,  9 Jul 2007 09:22:47 +0300
+
+osso-accounts (3.17-1) unstable; urgency=low
+
+  * Make account details page scrollable, and increase the default height
+    so that the page initially appears without scrollbar.
+    Fixes: NB#62202.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon,  2 Jul 2007 13:49:23 +0300
+
+osso-accounts (3.16-1) unstable; urgency=low
+
+  * Fix the layouts of jabber and gtalk advanced settings dialogs
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 27 Jun 2007 17:11:49 +0300
+
+osso-accounts (3.15-1) unstable; urgency=low
+
+  * RtcomUsername widget:
+    Rewrite check for account uniqueness: don't assume that the account
+    returned by mc_account_lookup_with_profile() will have the same
+    account name, since that function is also checking for the normalized
+    name. Instead, a straight comparison of the McAccount pointers is safer.
+    Fixes: NB#61858.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Wed, 27 Jun 2007 13:35:27 +0300
+
+osso-accounts (3.14-1) unstable; urgency=low
+
+  * UI:
+    Sort plugins by their display name (Fixes: NB#60823)
+
+  * SIP plugin:
+    Add error message when validating the page with an empty password
+    field (Fixes: NB#61355)
+
+  * RtcomAvatarChooser:
+    Use the correct default avatar (Fixes: NB#61747)
+
+  * RtcomAccountItem:
+    Make sure we are not using a NULL string with strcmp.
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Tue, 26 Jun 2007 15:32:47 +0300
+
+osso-accounts (3.13-1) unstable; urgency=low
+
+  * Make sure we don't store an uninitialized account name
+  * Avoid setting NULL values in GtkEntries
+  * Plug reference leaks all over
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 20 Jun 2007 10:58:41 +0300
+
+osso-accounts (3.12-1) unstable; urgency=low
+
+  * Jabber Plugin:
+    Don't leak the ConIcConnection. Fixes: NB#61131.
+
+  * Plugins:
+    Don't hold a reference to the AccountsList.
+
+  * UI:
+    Do not leak the manager. Fixes: NB#61133.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Tue, 19 Jun 2007 16:13:01 +0300
+
+osso-accounts (3.11-1) unstable; urgency=low
+
+  * Prevent the plugins from being unloaded, since that would currently
+    lead to a crash. Fixes: NB#60448.
+
+  * Depend on hildon-help instead of osso-help
+
+  * On clicking the "Reset" button, show the default avatar
+    (Fixes: NB#60494)
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri, 15 Jun 2007 16:42:00 +0300
+
+osso-accounts (3.10-1) unstable; urgency=low
+
+  * Set the maximum length of account name and alias entries as 20
+    (Fixes: NB#60390)
+
+  * Do not set title on the Crop avatar dialog (Fixes: NB#58978)
+
+  * Avoid a critical warning when there are no default domains in
+    a profile
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 13 Jun 2007 15:55:52 +0300
+
+osso-accounts (3.9-1) unstable; urgency=low
+
+  * Pixel-perfect layouts
+
+  * Enable wrapping for labels that may not fit fully
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 13 Jun 2007 14:30:14 +0300
+
+osso-accounts (3.8-1) unstable; urgency=low
+
+  * Update SIP profile: enable split-account capability and fix the icon name
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Wed, 13 Jun 2007 11:30:09 +0300
+
+osso-accounts (3.7-1) unstable; urgency=low
+
+  * Hack around the HildonCaption/GtkSizeGroup size-requisition issue
+    (Fixes: NB#60285)
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Tue, 12 Jun 2007 18:46:18 +0300
+
+osso-accounts (3.6-1) unstable; urgency=low
+
+  * Fix display-name notification
+
+  * Make glade support library name consistent with the
+    libosso-rtcom-accounts library.
+
+  * Move glade support libraries in a separate subdirectory.
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Tue, 12 Jun 2007 15:06:52 +0300
+
+osso-accounts (3.5-1) unstable; urgency=low
+
+  * Try to workaround an automake bug: manually impose install
+    dependencies.
+
+  * Get the toplevel window from the AccountsList object.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Tue, 12 Jun 2007 10:58:57 +0300
+
+osso-accounts (3.4-1) unstable; urgency=low
+
+  * Allow compilation in a build directory other than the srcdir.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 11 Jun 2007 17:11:06 +0300
+
+osso-accounts (3.3-1) unstable; urgency=low
+
+  * If a string parameter is empty, unset it in GConf.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 11 Jun 2007 14:30:51 +0300
+
+osso-accounts (3.2-4) unstable; urgency=low
+
+  * Use install-exec-local instead of install-exec-hook, to fix the
+    compilation in the build robot.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Mon, 11 Jun 2007 11:58:14 +0300
+
+osso-accounts (3.2-3) unstable; urgency=low
+
+  * Try not to use the .la file, but just the nice old -l flag. 
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri,  8 Jun 2007 17:58:43 +0300
+
+osso-accounts (3.2-2) unstable; urgency=low
+
+  * Set librtcom-accounts dependency on libosso-rtcom-accounts.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Fri,  8 Jun 2007 16:54:46 +0300
+
+osso-accounts (3.2-1) unstable; urgency=low
+
+  * Add a delete confirmation note for the accounts list view
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Fri,  8 Jun 2007 14:37:35 +0300
+
+osso-accounts (3.1-1) unstable; urgency=low
+
+  * Ensure we always show an avatar (user-set or a placeholder) in the list view
+  * Don't initialize display name to the account name if empty.
+
+ -- Lassi Syrjala <lassi.syrjala@nokia.com>  Fri,  8 Jun 2007 13:18:44 +0300
+
+osso-accounts (3.0-1) unstable; urgency=low
+
+  * Rewrite everything from scratch.
+    Fixes: NB#50249, NB#51168, NB#52551, NB#54550, NB#54626, NB#54631.
+    Fixes: NB#54845, NB#54846, NB#55547, NB#55810, NB#56175, NB#58596.
+
+ -- Alberto Mardegan <alberto.mardegan@nokia.com>  Thu,  7 Jun 2007 09:26:34 +0300
+

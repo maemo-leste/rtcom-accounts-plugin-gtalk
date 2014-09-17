@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.2.1 on Fri Jun  1 19:40:58 2007 by mardy@mardylaptop-->
+<glade-interface>
+  <requires lib="rtcom-hildon"/>
+  <requires lib="rtcom-accounts-widgets"/>
+  <widget class="GtkDialog" id="advanced">
+    <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+    <property name="resizable">False</property>
+    <property name="modal">False</property>
+    <property name="window_position">GTK_WIN_POS_CENTER_ON_PARENT</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="type_hint">GDK_WINDOW_TYPE_HINT_DIALOG</property>
+    <property name="has_separator">False</property>
+    <child internal-child="vbox">
+      <widget class="GtkVBox" id="dialog-vbox1">
+        <property name="visible">True</property>
+        <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+        <child>
+          <widget class="RtcomPage" id="page">
+            <property name="visible">True</property>
+            <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+            <child>
+              <widget class="HildonPannableArea" id="panarea1">
+                <property name="visible">True</property>
+                <property name="height-request">280</property>
+                <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+                <child>
+                  <widget class="GtkViewport" id="viewport1">
+                    <property name="height_request">156</property>
+                    <property name="visible">True</property>
+                    <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+                    <property name="resize_mode">GTK_RESIZE_QUEUE</property>
+                    <property name="shadow_type">GTK_SHADOW_NONE</property>
+                    <child>
+                      <widget class="GtkVBox" id="vbox1">
+                        <property name="visible">True</property>
+                        <property name="homogeneous">False</property>
+                        <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+                        <child>
+                          <widget class="GtkHBox" id="resource_hbox">
+                            <property name="visible">True</property>
+			    <property name="homogeneous">False</property>
+			    <property name="spacing">16</property>
+                            <child>
+                              <widget class="GtkLabel" id="caption6">
+                                <property name="visible">True</property>
+                                <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+                                <property name="label" translatable="yes">accountwizard_li_advanced_resource</property>
+                                <property name="xalign">0.0</property>
+                              </widget>
+                              <packing>
+                                <property name="expand">False</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <widget class="RtcomParamString" id="resource">
+                                <property name="text" translatable="yes">Maemo</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+                                <property name="hildon_input_mode">HILDON_GTK_INPUT_MODE_ALPHA | HILDON_GTK_INPUT_MODE_NUMERIC | HILDON_GTK_INPUT_MODE_SPECIAL | HILDON_GTK_INPUT_MODE_HEXA | HILDON_GTK_INPUT_MODE_TELE</property>
+                                <property name="field">resource</property>
+                                <property name="invalid_chars_re">["&amp;'/:&lt;&gt;@\s]</property>
+                                <property name="msg_illegal">accountwizard_ib_illegal_character_resource</property>
+                              </widget>
+                              <packing>
+                                <property name="expand">True</property>
+                              </packing>
+                            </child>
+                          </widget>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="HildonCheckButton" id="autostun-Button-finger">
+                            <property name="label" translatable="yes">accountwizard_li_advanced_autodetect_stun</property>
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="height-request">70</property>
+                            <property name="xalign">0.0</property>
+                            <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+                            <signal name="toggled" handler="on_autostun_toggled"/>
+                          </widget>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">False</property>
+                            <property name="position">2</property>
+                          </packing>
+                        </child>
+
+                        <child>
+                          <widget class="GtkTable" id="stun-table">
+                            <property name="visible">True</property>
+                            <property name="n_rows">2</property>
+                            <property name="n_columns">2</property>
+                            <property name="column_spacing">16</property>
+                            <child>
+                              <widget class="RtcomParamInt" id="stun-port">
+                                <property name="visible">True</property>
+                                <property name="text">3478</property>
+                                <property name="field">stun-port</property>
+                                <property name="range">1:65535</property>
+                              </widget>
+                              <packing>
+                                <property name="left_attach">1</property>
+                                <property name="right_attach">2</property>
+                                <property name="top_attach">1</property>
+                                <property name="bottom_attach">2</property>
+                                <property name="x_options">GTK_EXPAND | GTK_FILL</property>
+                                <property name="y_options">GTK_SHRINK</property>
+                              </packing>
+                            </child>
+
+                            <child>
+                              <widget class="RtcomParamString" id="stun-server">
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="hildon_input_mode">HILDON_GTK_INPUT_MODE_ALPHA | HILDON_GTK_INPUT_MODE_NUMERIC | HILDON_GTK_INPUT_MODE_SPECIAL | HILDON_GTK_INPUT_MODE_HEXA | HILDON_GTK_INPUT_MODE_TELE</property>
+                                <property name="field">stun-server</property>
+                              </widget>
+                              <packing>
+                                <property name="left_attach">1</property>
+                                <property name="right_attach">2</property>
+                                <property name="x_options">GTK_EXPAND | GTK_FILL</property>
+                                <property name="y_options">GTK_SHRINK</property>
+                             </packing>
+                            </child>
+
+                            <child>
+                              <widget class="GtkLabel" id="stun-port-lbl">
+                                <property name="visible">True</property>
+                                <property name="label" translatable="yes">accountwizard_li_advanced_stun_port</property>
+                                <property name="xalign">0.0</property>
+                              </widget>
+                              <packing>
+                                <property name="top_attach">1</property>
+                                <property name="bottom_attach">2</property>
+                                <property name="x_options">GTK_SHRINK | GTK_FILL</property>
+                                <property name="y_options">GTK_SHRINK</property>
+                              </packing>
+                            </child>
+
+                            <child>
+                              <widget class="GtkLabel" id="stun-server-lbl">
+                                <property name="visible">True</property>
+                                <property name="label" translatable="yes">accountwizard_li_advanced_stun_server</property>
+                                <property name="xalign">0.0</property>
+                              </widget>
+                              <packing>
+                                <property name="x_options">GTK_SHRINK | GTK_FILL</property>
+                                <property name="y_options">GTK_SHRINK</property>
+                              </packing>
+                            </child>
+                          </widget>
+                        </child>
+                     </widget>
+                    </child>
+                  </widget>
+                </child>
+              </widget>
+            </child>
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

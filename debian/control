@@ -1,0 +1,24 @@
+Source: rtcom-accounts-ui
+Priority: optional
+Section: comm
+Maintainer: Salvatore Iovene <ext-salvatore.iovene@nokia.com>
+Build-Depends: debhelper (>= 5), cdbs, librtcom-accounts-ui-dev,
+ librtcom-accounts-widgets-dev, libgtk2.0-dev, libglade2-dev,
+ libhildon1-dev, libtelepathy-glib-dev
+Standards-Version: 3.7.3
+
+Package: rtcom-accounts-plugin-gtalk
+Architecture: any
+Section: comm
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Google talk plugin for the Accounts applet
+ A plugin for configuring Google talk accounts
+
+Package: rtcom-accounts-plugin-gtalk-dbg
+Architecture: any
+Section: extra
+Depends: ${misc:Depends}, rtcom-accounts-plugin-gtalk (= ${binary:Version})
+Description: Google talk plugin for the Accounts applet - debug symbols
+ A plugin for configuring Google talk accounts
+ .
+ This package contains the debug symbols.
