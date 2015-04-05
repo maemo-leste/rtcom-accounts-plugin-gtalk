@@ -1,7 +1,7 @@
 Source: rtcom-accounts-plugin-gtalk
 Priority: optional
 Section: comm
-Maintainer: Salvatore Iovene <ext-salvatore.iovene@nokia.com>
+Maintainer: Pali Rohár <pali.rohar@gmail.com>
 Build-Depends: debhelper (>= 5), cdbs, librtcom-accounts-ui-dev,
  librtcom-accounts-widgets-dev, libgtk2.0-dev, libglade2-dev,
  libhildon1-dev, libtelepathy-glib-dev
