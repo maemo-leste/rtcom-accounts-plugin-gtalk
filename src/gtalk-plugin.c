@@ -138,9 +138,6 @@ static void gtalk_plugin_on_autostun_toggled_cb(gpointer data)
   stun_table = glade_xml_get_widget(xml, "stun-table");
   stun_port = glade_xml_get_widget(xml, "stun-port");
   stun_server = glade_xml_get_widget(xml, "stun-server");
-  /* WTF, why those are not used? */
-  glade_xml_get_widget(xml, "stun-port-lbl");
-  glade_xml_get_widget(xml, "stun-server-lbl");
 
   if (rtcom_param_int_get_value(RTCOM_PARAM_INT(stun_port)) == G_MININT32)
     rtcom_param_int_set_value(RTCOM_PARAM_INT(stun_port), 3478);
