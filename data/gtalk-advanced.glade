@@ -75,6 +75,38 @@
                           </packing>
                         </child>
                         <child>
+                          <widget class="GtkHBox" id="priority_hbox">
+                            <property name="visible">True</property>
+                            <property name="homogeneous">False</property>
+                            <property name="spacing">16</property>
+                            <child>
+                              <widget class="GtkLabel" id="priority-lbl">
+                                <property name="visible">True</property>
+                                <property name="label" translatable="yes">Resource priority</property>
+                                <property name="xalign">0.0</property>
+                              </widget>
+                              <packing>
+                                <property name="expand">False</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <widget class="RtcomParamInt" id="priority">
+                                <property name="visible">True</property>
+                                <property name="text">0</property>
+                                <property name="field">priority</property>
+                                <property name="range">-127:127</property>
+                              </widget>
+                              <packing>
+                                <property name="expand">True</property>
+                              </packing>
+                            </child>
+                          </widget>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
                           <widget class="HildonCheckButton" id="autostun-Button-finger">
                             <property name="label" translatable="yes">accountwizard_li_advanced_autodetect_stun</property>
                             <property name="visible">True</property>
