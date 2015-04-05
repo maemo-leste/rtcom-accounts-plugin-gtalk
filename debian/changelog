@@ -1,8 +1,10 @@
 rtcom-accounts-plugin-gtalk (4.140-2) fremantle; urgency=low
 
   * Initial import
+  * Fix bug https://bugs.maemo.org/show_bug.cgi?id=2141:
+    Allow setting priority in GTalk
 
- -- Pali Rohár <pali.rohar@gmail.com>  Wed, 17 Sep 2014 09:31:10 +0200
+ -- Pali Rohár <pali.rohar@gmail.com>  Sun, 05 Apr 2015 11:55:10 +0200
 
 rtcom-accounts-ui (4.140-1+0m5) fremantle; urgency=low
 
