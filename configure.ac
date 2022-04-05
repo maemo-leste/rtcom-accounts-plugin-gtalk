@@ -1,6 +1,6 @@
 AC_PREREQ([2.52])
 
-AC_INIT(rtcom-accounts-ui, 4.140)
+AC_INIT(rtcom-accounts-plugin-gtalk, 4.140)
 
 LT_CURRENT=1
 LT_REVISION=0
@@ -12,11 +12,8 @@ AC_SUBST([LT_AGE])
 AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE
 AM_CONFIG_HEADER(config.h)
-AC_CONFIG_FILES([
-	Makefile
-	src/Makefile
-	data/Makefile
-])
+AM_MAINTAINER_MODE
+
 
 AC_ISC_POSIX
 AC_PROG_CC
@@ -67,4 +64,8 @@ if test "x$ddebug" != "xyes"; then
     CFLAGS="$CFLAGS -DG_DEBUG_DISABLE"
 fi
 
-AC_OUTPUT
+AC_OUTPUT([
+	Makefile
+	src/Makefile
+	data/Makefile
+])

@@ -3,15 +3,16 @@ pluginlib_LTLIBRARIES = \
 
 libgtalk_plugin_ladir = $(pluginlibdir)
 libgtalk_plugin_la_SOURCES = \
-	gtalk-plugin.c
+		gtalk-plugin.c
 
-libgtalk_plugin_la_CFLAGS = $(ACCOUNTS_CFLAGS) $(GLADE_CFLAGS) \
+libgtalk_plugin_la_CFLAGS =						\
+		$(ACCOUNTS_CFLAGS) $(GLADE_CFLAGS)			\
+		-DG_LOG_DOMAIN=\"$(PACKAGE)\"				\
 		-DPLUGIN_XML_DIR=\"$(pluginlibdir)/xml\"
-libgtalk_plugin_la_LIBADD = $(ACCOUNTS_LIBS) $(GLADE_LIBS)
 
-AM_CFLAGS = \
-		$(ACCOUNTS_CFLAGS)
-		-Wall -Werror \
-		-DG_LOG_DOMAIN=\"$(PACKAGE)\"
+libgtalk_plugin_la_LDFLAGS =						\
+		-Wl,--as-needed $(ACCOUNTS_LIBS) $(GLADE_LIBS)		\
+		-Wl,--no-undefined -module -avoid-version
 
-AM_LIBS = $(ACCOUNTS_LIBS)
+MAINTAINERCLEANFILES = Makefile.in
+

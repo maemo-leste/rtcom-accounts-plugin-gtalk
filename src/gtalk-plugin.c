@@ -10,6 +10,7 @@
 #include <librtcom-accounts-widgets/rtcom-param-int.h>
 #include <hildon-uri.h>
 #include <config.h>
+#include <libintl.h>
 
 #define GTALK_FORGOT_PASSWORD_URI "https://www.google.com/accounts/ForgotPasswd?service=mail&fpOnly=1"
 #define GTALK_NEW_ACCOUNT_URI "https://www.google.com/accounts/NewAccount?service=mail&hl="
@@ -34,7 +35,7 @@ static void gtalk_plugin_init(GtalkPlugin *self)
   RTCOM_ACCOUNT_PLUGIN(self)->name = "google-talk";
   RTCOM_ACCOUNT_PLUGIN(self)->username_prefill = "@gmail.com";
   RTCOM_ACCOUNT_PLUGIN(self)->capabilities = RTCOM_PLUGIN_CAPABILITY_ALL;
-  rtcom_account_plugin_add_service(RTCOM_ACCOUNT_PLUGIN(self), "google-talk");
+  rtcom_account_plugin_add_service(RTCOM_ACCOUNT_PLUGIN(self), "gabble/jabber");
   glade_init();
 }
 
@@ -166,6 +167,7 @@ static GtkWidget *create_advanced_settings_page(RtcomDialogContext *context)
     GHashTable *hash;
     gchar title[200];
     const gchar *text;
+    const gchar *msg;
     GladeXML *xml =
         glade_xml_new(PLUGIN_XML_DIR "/gtalk-advanced.glade",
                       NULL,
@@ -185,11 +187,9 @@ static GtkWidget *create_advanced_settings_page(RtcomDialogContext *context)
     rtcom_page_set_account(RTCOM_PAGE(page), RTCOM_ACCOUNT_ITEM (account));
     service = account_item_get_service(account);
     profile_name = account_service_get_display_name(service);
-    g_snprintf(title,
-               sizeof(title),
-               g_dgettext(GETTEXT_PACKAGE,
-                          "accountwizard_ti_advanced_settings"),
-               profile_name);
+    msg = g_dgettext(GETTEXT_PACKAGE,
+                     "accountwizard_ti_advanced_settings");
+    g_snprintf(title, sizeof(title), msg, profile_name);
     gtk_window_set_title(GTK_WINDOW(dialog), title);
 
     start_page = rtcom_dialog_context_get_start_page(context);

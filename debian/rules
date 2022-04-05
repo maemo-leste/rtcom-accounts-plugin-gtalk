@@ -1,32 +1,15 @@
 #!/usr/bin/make -f
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/autotools.mk
+#export DH_VERBOSE = 1
 
-DEB_DH_INSTALL_SOURCEDIR=debian/tmp
-DEB_DESTDIR=$(CURDIR)/debian/tmp
-DEB_DH_MAKESHLIBS_ARGS := --exclude=plugin --exclude=applet
+%:
+	dh $@ --with autoreconf
 
-DEB_DBG_PACKAGE_rtcom-accounts-plugin-gtalk = rtcom-accounts-plugin-gtalk-dbg
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_CFLAGS_MAINT_APPEND  = -Wall -Werror -Wimplicit-fallthrough
 
-ifneq (,$(findstring debug,$(DEB_BUILD_OPTIONS)))
-    DEB_CONFIGURE_EXTRA_FLAGS += --enable-debug
-else
-    DEB_CONFIGURE_EXTRA_FLAGS += --disable-cast-checks
-endif
+override_dh_autoreconf:
+	dh_autoreconf --as-needed
 
-ifneq (,$(findstring parallel,$(DEB_BUILD_OPTIONS)))
-    PARALLEL_JOBS := $(shell echo $(DEB_BUILD_OPTIONS) | \
-            sed -e 's/.*parallel=\([0-9]\+\).*/\1/')
-    ifeq ($(DEB_BUILD_OPTIONS),$(PARALLEL_JOBS))
-        PARALLEL_JOBS := $(shell if [ -f /proc/cpuinfo ]; \
-                    then echo `cat /proc/cpuinfo | grep 'processor' | wc -l`; \
-                                else echo 1; fi)
-    endif
-    NJOBS := -j$(PARALLEL_JOBS)
-endif
-DEB_MAKE_ENVVARS := MAKEFLAGS=$(NJOBS)
-
-debian/stamp-autotools-files:
-	autoreconf -v --install
-	touch debian/stamp-autotools-files
+override_dh_auto_install:
+	dh_auto_install --destdir=debian/tmp
