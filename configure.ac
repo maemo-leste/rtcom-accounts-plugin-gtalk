@@ -22,7 +22,7 @@ AC_HEADER_STDC
 AC_DISABLE_STATIC
 AC_PROG_LIBTOOL
 
-PKG_CHECK_MODULES(ACCOUNTS, rtcom-accounts-widgets)
+PKG_CHECK_MODULES(ACCOUNTS, rtcom-accounts-widgets libhildonmime)
 PKG_CHECK_MODULES(GLADE, libglade-2.0)
 
 dnl Localization
@@ -33,16 +33,8 @@ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "${GETTEXT_PACKAGE}", [gettext package])
 dnl Installation directories
 AC_SUBST(librtcom_accountsdir)
 
-AC_ARG_WITH(accounts_dir, AS_HELP_STRING([--with-accounts-dir=<path>],[Directory for storing accounts plugins]))
-if test -z "$with_accounts_dir" ; then
-    pluginlibdir=$libdir/libaccounts-plugins
-else
-    pluginlibdir=$with_accounts_dir
-fi
+pluginlibdir="`$PKG_CONFIG --variable=pluginlibdir libaccounts`"
 AC_SUBST(pluginlibdir)
-
-profiledir="`$PKG_CONFIG --variable=profiles_dir libmcclient`"
-AC_SUBST(profiledir)
 
 AC_ARG_ENABLE(cast-checks,  [  --disable-cast-checks   compile with GLIB cast checks disabled],[cchecks=${enableval}],cchecks=yes)
 if test "x$cchecks" = "xno"; then

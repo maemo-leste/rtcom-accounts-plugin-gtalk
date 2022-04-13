@@ -38,10 +38,26 @@ ACCOUNT_DEFINE_PLUGIN(GtalkPlugin, gtalk_plugin, RTCOM_TYPE_ACCOUNT_PLUGIN);
 static void
 gtalk_plugin_init(GtalkPlugin *self)
 {
+  RtcomAccountService *service;
+  GdkPixbuf *icon;
+
   RTCOM_ACCOUNT_PLUGIN(self)->name = "google-talk";
   RTCOM_ACCOUNT_PLUGIN(self)->username_prefill = "@gmail.com";
   RTCOM_ACCOUNT_PLUGIN(self)->capabilities = RTCOM_PLUGIN_CAPABILITY_ALL;
-  rtcom_account_plugin_add_service(RTCOM_ACCOUNT_PLUGIN(self), "gabble/jabber");
+  service = rtcom_account_plugin_add_service(RTCOM_ACCOUNT_PLUGIN(self),
+                                             "gabble/jabber");
+
+  g_object_set(G_OBJECT(service),
+               "display-name", "Google Talk",
+               "service-name", "google-talk",
+               NULL);
+
+  icon = gtk_icon_theme_load_icon(
+        gtk_icon_theme_get_default(), "im-google-talk", 48, 0, NULL);
+
+  if (icon)
+    g_object_set(G_OBJECT(service), "icon", icon, NULL);
+
   glade_init();
 }
 
