@@ -1,3 +1,9 @@
+rtcom-accounts-plugins (4.141.0) fremantle; urgency=low
+
+  * rename the package
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Wed, 16 May 2022 20:22:11 +0300
+
 rtcom-accounts-plugin-gtalk (4.141.0) fremantle; urgency=low
 
   * Port to Leste

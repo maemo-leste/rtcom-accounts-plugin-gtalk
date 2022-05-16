@@ -1,6 +1,6 @@
 AC_PREREQ([2.52])
 
-AC_INIT(rtcom-accounts-plugin-gtalk, 4.140)
+AC_INIT(rtcom-accounts-plugins, 4.141)
 
 LT_CURRENT=1
 LT_REVISION=0

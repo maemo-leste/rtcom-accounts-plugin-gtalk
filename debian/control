@@ -1,4 +1,4 @@
-Source: rtcom-accounts-plugin-gtalk
+Source: rtcom-accounts-plugins
 Priority: optional
 Section: comm
 Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
@@ -6,13 +6,15 @@ Build-Depends: debhelper (>= 11), librtcom-accounts-ui-dev,
  librtcom-accounts-widgets-dev, libgtk2.0-dev, libglade2-dev,
  libhildon1-dev, libtelepathy-glib-dev, libhildonmime-dev
 Standards-Version: 4.1.3
-Vcs-Browser: https://github.com/maemo-leste/rtcom-accounts-plugin-gtalk
-Vcs-Git: https://github.com/maemo-leste/rtcom-accounts-plugin-gtalk.git
+Vcs-Browser: https://github.com/maemo-leste/rtcom-accounts-plugins
+Vcs-Git: https://github.com/maemo-leste/rtcom-accounts-plugins.git
 
-Package: rtcom-accounts-plugin-gtalk
+Package: rtcom-accounts-plugins
 Architecture: any
 Section: comm
 Multi-Arch: same
+Replaces: rtcom-accounts-plugin-gtalk
+Conflicts: rtcom-accounts-plugin-gtalk
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Google talk plugin for the Accounts applet
- A plugin for configuring Google talk accounts
+Description: Various protocol plugins for the Accounts applet
+ Plugins for configuring telepathy accounts
