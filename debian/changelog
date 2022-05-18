@@ -1,3 +1,9 @@
+rtcom-accounts-plugins (4.142.1) fremantle; urgency=low
+
+  * idle: do not call rtcom_account_item_save_settings()
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Wed, 18 May 2022 19:43:11 +0300
+
 rtcom-accounts-plugins (4.142.0) fremantle; urgency=low
 
   * add idle plugin
