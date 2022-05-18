@@ -84,21 +84,9 @@ on_advanced_settings_response(GtkWidget *dialog, gint response,
     GtkWidget *page = glade_xml_get_widget(xml, "page");
 
     if (rtcom_page_validate(RTCOM_PAGE(page), &error))
-    {
-      AccountItem *account;
-      GError *error = NULL;
-
-      account = account_edit_context_get_account(ACCOUNT_EDIT_CONTEXT(context));
-      rtcom_account_item_save_settings(RTCOM_ACCOUNT_ITEM(account), &error);
-
-      if (error)
-        goto err;
-
       gtk_widget_hide(dialog);
-    }
     else
     {
-err:
       g_warning("advanced page validation failed");
 
       if (error)
