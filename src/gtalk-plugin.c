@@ -168,20 +168,28 @@ gtalk_plugin_on_autostun_toggled_cb(gpointer data)
   gboolean active;
   GtkWidget *stun_server;
   GtkWidget *stun_table;
+  GtkWidget *area;
 
   active = hildon_check_button_get_active(HILDON_CHECK_BUTTON(data));
   xml = glade_get_widget_tree(GTK_WIDGET(data));
   stun_table = glade_xml_get_widget(xml, "stun-table");
   stun_port = glade_xml_get_widget(xml, "stun-port");
   stun_server = glade_xml_get_widget(xml, "stun-server");
+  area = glade_xml_get_widget(xml, "panable-area");
 
   if (rtcom_param_int_get_value(RTCOM_PARAM_INT(stun_port)) == G_MININT32)
     rtcom_param_int_set_value(RTCOM_PARAM_INT(stun_port), 3478);
 
   if (active)
+  {
+    g_object_set(area, "height-request", 210, NULL);
     gtk_widget_hide(stun_table);
+  }
   else
+  {
+    g_object_set(area, "height-request", 360, NULL);
     gtk_widget_show(stun_table);
+  }
 
   gtk_widget_set_sensitive(stun_server, !active);
   gtk_widget_set_sensitive(stun_port, !active);
