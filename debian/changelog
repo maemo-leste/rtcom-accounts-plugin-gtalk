@@ -1,3 +1,9 @@
+rtcom-accounts-plugins (4.142.0) fremantle; urgency=low
+
+  * add idle plugin
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Wed, 18 May 2022 19:15:43 +0300
+
 rtcom-accounts-plugins (4.141.0) fremantle; urgency=low
 
   * rename the package

@@ -3,7 +3,7 @@ Priority: optional
 Section: comm
 Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
 Build-Depends: debhelper (>= 11), librtcom-accounts-ui-dev,
- librtcom-accounts-widgets-dev, libgtk2.0-dev, libglade2-dev,
+ librtcom-accounts-widgets-dev (>= 4.141.0), libgtk2.0-dev, libglade2-dev,
  libhildon1-dev, libtelepathy-glib-dev, libhildonmime-dev
 Standards-Version: 4.1.3
 Vcs-Browser: https://github.com/maemo-leste/rtcom-accounts-plugins
@@ -15,6 +15,7 @@ Section: comm
 Multi-Arch: same
 Replaces: rtcom-accounts-plugin-gtalk
 Conflicts: rtcom-accounts-plugin-gtalk
+Provides: rtcom-accounts-plugin-gtalk
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Various protocol plugins for the Accounts applet
  Plugins for configuring telepathy accounts
