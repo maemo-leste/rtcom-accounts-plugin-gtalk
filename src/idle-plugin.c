@@ -42,15 +42,12 @@ struct _IdlePluginClass
   RtcomAccountPluginClass parent_class;
 };
 
-RtcomAccountPluginClass *parent_class;
-
 ACCOUNT_DEFINE_PLUGIN(IdlePlugin, idle_plugin, RTCOM_TYPE_ACCOUNT_PLUGIN);
 
 static void
 idle_plugin_init(IdlePlugin *self)
 {
   RtcomAccountService *service;
-  GdkPixbuf *icon;
 
   RTCOM_ACCOUNT_PLUGIN(self)->name = "idle";
   RTCOM_ACCOUNT_PLUGIN(self)->capabilities =
@@ -60,15 +57,8 @@ idle_plugin_init(IdlePlugin *self)
                                              "idle/irc");
 
   g_object_set(G_OBJECT(service),
-               "display-name", "IRC",
                "supports-avatar", FALSE,
                NULL);
-
-  icon = gtk_icon_theme_load_icon(
-        gtk_icon_theme_get_default(), "im-irc", 48, 0, NULL);
-
-  if (icon)
-    g_object_set(G_OBJECT(service), "icon", icon, NULL);
 
   glade_init();
 }
@@ -266,7 +256,6 @@ idle_plugin_context_init(RtcomAccountPlugin *plugin,
 static void
 idle_plugin_class_init(IdlePluginClass *klass)
 {
-  parent_class = g_type_class_peek_parent(klass);
   RTCOM_ACCOUNT_PLUGIN_CLASS(klass)->context_init = idle_plugin_context_init;
 }
 

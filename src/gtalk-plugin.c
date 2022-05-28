@@ -375,6 +375,5 @@ gtalk_plugin_context_init(RtcomAccountPlugin *plugin,
 static void
 gtalk_plugin_class_init(GtalkPluginClass *klass)
 {
-  parent_class = g_type_class_peek_parent(klass);
   RTCOM_ACCOUNT_PLUGIN_CLASS(klass)->context_init = gtalk_plugin_context_init;
 }
