@@ -1,3 +1,9 @@
+rtcom-accounts-plugins (4.142.2) fremantle; urgency=low
+
+  * port to latest rtcom API
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sat, 28 May 2022 14:23:44 +0300
+
 rtcom-accounts-plugins (4.142.1) fremantle; urgency=low
 
   * idle: do not call rtcom_account_item_save_settings()
