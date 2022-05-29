@@ -1,3 +1,9 @@
+rtcom-accounts-plugins (4.143.0) fremantle; urgency=low
+
+  * add jabber plugin
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sun, 29 May 2022 13:10:32 +0300
+
 rtcom-accounts-plugins (4.142.2) fremantle; urgency=low
 
   * port to latest rtcom API
