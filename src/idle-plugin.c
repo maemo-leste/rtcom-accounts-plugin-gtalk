@@ -172,12 +172,11 @@ idle_plugin_context_init(RtcomAccountPlugin *plugin,
   gboolean editing;
   AccountItem *account;
   GtkWidget *page;
-
   static const gchar *invalid_chars_re = "[:'\"<>&;#\\s]";
 
   editing = account_edit_context_get_editing(ACCOUNT_EDIT_CONTEXT(context));
   account = account_edit_context_get_account(ACCOUNT_EDIT_CONTEXT(context));
-  /*create_advanced_settings_page(context);*/
+  create_advanced_settings_page(context);
 
   if (editing)
   {

@@ -1,4 +1,5 @@
 pluginlib_LTLIBRARIES = \
+	libjabber-plugin.la \
 	libgtalk-plugin.la \
 	libidle-plugin.la
 
@@ -16,6 +17,10 @@ libgtalk_plugin_la_LDFLAGS = $(COMMON_LDFLAGS)
 libidle_plugin_la_SOURCES = idle-plugin.c
 libidle_plugin_la_CFLAGS = $(COMMON_CFLAGS)
 libidle_plugin_la_LDFLAGS = $(COMMON_LDFLAGS)
+
+libjabber_plugin_la_SOURCES = jabber-plugin.c
+libjabber_plugin_la_CFLAGS = $(COMMON_CFLAGS)
+libjabber_plugin_la_LDFLAGS = $(COMMON_LDFLAGS)
 
 MAINTAINERCLEANFILES = Makefile.in
 
