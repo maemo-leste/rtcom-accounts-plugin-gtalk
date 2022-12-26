@@ -1,3 +1,10 @@
+rtcom-accounts-plugins (4.144.0) fremantle; urgency=low
+
+  * add sip plugin
+  * remove gtalk plugin
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Mon, 26 Dec 2022 18:20:11 +0300
+
 rtcom-accounts-plugins (4.143.0) fremantle; urgency=low
 
   * add jabber plugin
