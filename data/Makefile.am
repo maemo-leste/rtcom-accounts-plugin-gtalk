@@ -1,6 +1,6 @@
 pluginxmldir = $(pluginlibdir)/xml
 pluginxml_DATA = \
-	gtalk-advanced.glade \
+	sip-advanced.glade \
 	idle-advanced.glade \
 	jabber-advanced.glade \
 	jabber-new-account.glade

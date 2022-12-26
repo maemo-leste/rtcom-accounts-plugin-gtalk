@@ -1,6 +1,6 @@
 pluginlib_LTLIBRARIES = \
 	libjabber-plugin.la \
-	libgtalk-plugin.la \
+	libsip-plugin.la \
 	libidle-plugin.la
 
 COMMON_CFLAGS = $(ACCOUNTS_CFLAGS) $(GLADE_CFLAGS) \
@@ -10,9 +10,9 @@ COMMON_CFLAGS = $(ACCOUNTS_CFLAGS) $(GLADE_CFLAGS) \
 COMMON_LDFLAGS = -Wl,--as-needed $(ACCOUNTS_LIBS) $(GLADE_LIBS) \
 		 -Wl,--no-undefined -module -avoid-version
 
-libgtalk_plugin_la_SOURCES = gtalk-plugin.c
-libgtalk_plugin_la_CFLAGS = $(COMMON_CFLAGS)
-libgtalk_plugin_la_LDFLAGS = $(COMMON_LDFLAGS)
+libsip_plugin_la_SOURCES = sip-plugin.c
+libsip_plugin_la_CFLAGS = $(COMMON_CFLAGS)
+libsip_plugin_la_LDFLAGS = $(COMMON_LDFLAGS)
 
 libidle_plugin_la_SOURCES = idle-plugin.c
 libidle_plugin_la_CFLAGS = $(COMMON_CFLAGS)

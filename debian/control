@@ -16,6 +16,6 @@ Multi-Arch: same
 Replaces: rtcom-accounts-plugin-gtalk
 Conflicts: rtcom-accounts-plugin-gtalk
 Provides: rtcom-accounts-plugin-gtalk
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libaccounts-glade
 Description: Various protocol plugins for the Accounts applet
  Plugins for configuring telepathy accounts
